@@ -18,6 +18,9 @@ const DEMO_BOUND = [
   'negative: bad DOI is omitted with a note and cannot pass the verifier',
   'negative: missing citation/claim link fails closed',
   'negative: truncated JSONL, changed hash and incompatible manifests are rejected',
+  // (with ORATLAS_DIR) re-exports with the synthetic demo links; validate-with-oratlas.mjs
+  // still runs the real extractor on this repository's own export in that workflow
+  'the real ORAtlas extractor ingests the export with zero dropped records',
   // tests/evidence-links-v2.test.mjs: synthetic lineage bound to the demo claim graph
   'the S2 lineage sidecar bridges to links/2 and exports passage-level lineage',
   'locator is optional and omitted locators stay explicit null',
