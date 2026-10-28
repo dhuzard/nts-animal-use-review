@@ -33,7 +33,8 @@ jobs:
         run: |
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
-          node --test tests/*.test.mjs
+          node scripts/nts-dry-run/run-template-tests.mjs tests/*.test.mjs  # demo-bound template tests skipped, see the script
+          node scripts/oratlas/verify-oratlas-export.mjs --directory .
 
       - name: Validate human-review and publication contracts
         run: node scripts/validate-community-contracts.js

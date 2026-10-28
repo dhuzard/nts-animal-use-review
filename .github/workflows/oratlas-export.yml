@@ -39,4 +39,4 @@ jobs:
         run: |
           node scripts/oratlas/verify-oratlas-export.mjs --directory .
           node scripts/oratlas/validate-with-oratlas.mjs --oratlas-dir "$ORATLAS_DIR" --directory .
-          node --test tests/oratlas-export.test.mjs
+          node scripts/nts-dry-run/run-template-tests.mjs tests/oratlas-export.test.mjs

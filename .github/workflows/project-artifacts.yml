@@ -32,6 +32,6 @@ jobs:
           node-version: '24'
       - name: Validate producer descriptor and public export regressions
         run: >-
-          node --test tests/project-artifacts.test.mjs
+          node scripts/nts-dry-run/run-template-tests.mjs tests/project-artifacts.test.mjs
           tests/contributorship.test.mjs tests/contributorship-private-leak.test.mjs
           tests/oratlas-export.test.mjs
