@@ -1,0 +1,91 @@
+{
+  "claim_id": "clm_3f6806d566c1ba52",
+  "section_id": "sec-example",
+  "source_file": "content/example.md",
+  "paragraph_index": 1,
+  "sentence_index": 1,
+  "claim_text": "Gebru and colleagues proposed datasheets for datasets.",
+  "normalized_claim": "gebru and colleagues proposed datasheets for datasets",
+  "claim_atoms": [
+    { "atom_id": "a1", "text": "Gebru and colleagues proposed datasheets for datasets" }
+  ],
+  "claim_type": "methodological",
+  "claim_scope": {
+    "biological": null,
+    "computational": "machine-learning datasets",
+    "clinical": null,
+    "methodological": "dataset documentation proposal",
+    "conceptual": "method attribution"
+  },
+  "scope_status": "matched",
+  "claim_polarity": "neutral",
+  "modality": "established",
+  "wording_strength": "unqualified",
+  "entities": [
+    { "name": "datasheets for datasets", "entity_type": "method", "identifier": null }
+  ],
+  "citation_keys": ["gebru2021datasheets"],
+  "dois": ["10.1145/3458723"],
+  "citation_contexts": [
+    {
+      "cite_key": "gebru2021datasheets",
+      "doi": "10.1145/3458723",
+      "role": "direct_support",
+      "source_type": "primary",
+      "bibliography_status": "verified",
+      "integrity_status": "verified_no_known_issue",
+      "integrity_checked_at": "2026-07-10T09:20:00Z",
+      "integrity_check_source": "https://dl.acm.org/doi/10.1145/3458723",
+      "passages": [
+        {
+          "text": "To address this gap, we propose datasheets for datasets.",
+          "passage_source": "abstract",
+          "locator": "Abstract",
+          "verification_status": "verified",
+          "verification_source": "https://dl.acm.org/doi/10.1145/3458723",
+          "verified_at": "2026-07-10T09:20:00Z",
+          "supports_claim_atoms": ["a1"]
+        }
+      ],
+      "direction_match": true,
+      "supports_claim_atoms": ["a1"],
+      "independence_group": "gebru_etal_datasheets",
+      "independence_basis": "Single originating source; replication independence is not claimed.",
+      "scope_match": "exact",
+      "notes": "Originating primary source for the proposal attribution."
+    }
+  ],
+  "evidence_relation": "directly_supported",
+  "conflicts": [],
+  "knowledge_edges": [
+    {
+      "subject": "Gebru and colleagues",
+      "predicate": "proposes",
+      "object": "datasheets for datasets",
+      "qualifier": null,
+      "edge_source": "claim_text:a1"
+    }
+  ],
+  "trust_score": {
+    "rubric_version": "2.0.0",
+    "components": {
+      "traceability": { "score": 4, "rule_id": "T4_ATOM_LEVEL", "rationale": "The source is linked to the atom and a verified passage.", "evidence": ["gebru2021datasheets:a1"], "failure_modes": ["missing locator"], "recommended_fix": "Keep the source locator." },
+      "robustness": { "score": 4, "rule_id": "R4_ORIGINATING_SOURCE", "rationale": "The originating method paper covers the attribution atom.", "evidence": ["gebru2021datasheets:direct_support"], "failure_modes": ["secondary attribution"], "recommended_fix": "Cite the originating paper." },
+      "uncertainty_calibration": { "score": 4, "rule_id": "U4_EXACT_CALIBRATION", "rationale": "The sentence reports only the documented proposal.", "evidence": ["evidence_relation=directly_supported"], "failure_modes": ["unsupported effectiveness language"], "recommended_fix": "Keep the claim descriptive." },
+      "source_integrity": { "score": 4, "rule_id": "S4_VERIFIED_PRIMARY", "rationale": "The example record links the publisher integrity check.", "evidence": ["10.1145/3458723"], "failure_modes": ["integrity check omitted"], "recommended_fix": "Recheck source status." },
+      "transferability_scope_control": { "score": 4, "rule_id": "X4_SCOPE_MATCHED", "rationale": "The claim and source concern the same method scope.", "evidence": ["scope_status=matched"], "failure_modes": ["scope expansion"], "recommended_fix": "Keep scope aligned." }
+    },
+    "raw_score": 100,
+    "overall_score": 100,
+    "trust_label": "high_trust",
+    "capped": false,
+    "cap_value": null,
+    "cap_reasons": [],
+    "cap_reason": null,
+    "computed_from": "validator"
+  },
+  "human_review_required": false,
+  "created_by_phase": "phase_5b_claim_seed",
+  "updated_by_phase": "phase_16T_trust_score_validation",
+  "validation_status": "validated"
+}

@@ -1,0 +1,83 @@
+name: Build and Deploy MyST Site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Validate TRUST knowledge
+        run: |
+          node scripts/validate-trust.js
+          node scripts/test-trust-validator.js
+          node --test tests/*.test.mjs
+
+      - name: Validate human-review and publication contracts
+        run: node scripts/validate-community-contracts.js
+
+      - name: Validate living-review release artifacts
+        run: |
+          node scripts/release-artifacts/validate-release-artifact-schemas.mjs --root .
+          node scripts/release-artifacts/validate-release-artifact-bundle.mjs --directory release_artifacts/examples
+
+      - name: Install dependencies
+        run: |
+          pip install mystmd jupyter matplotlib numpy pandas seaborn
+          npm install -g mystmd
+
+      - name: Execute figure notebooks
+        run: |
+          if ls figures/notebooks/*.ipynb 1>/dev/null 2>&1; then
+            for nb in figures/notebooks/*.ipynb; do
+              echo "Executing $nb..."
+              jupyter execute "$nb" --timeout=120
+            done
+          else
+            echo "No figure notebooks found"
+          fi
+
+      - name: Build MyST site
+        env:
+          BASE_URL: /ComputationalReviewTemplate_trust-knowledge
+        run: myst build --html
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _build/html
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

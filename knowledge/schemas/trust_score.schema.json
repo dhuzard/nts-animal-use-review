@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/trust_score.schema.json",
+  "title": "TRUST Score",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rubric_version", "components", "raw_score", "overall_score", "trust_label",
+    "capped", "cap_value", "cap_reasons", "cap_reason", "computed_from"
+  ],
+  "properties": {
+    "rubric_version": { "const": "2.0.0" },
+    "components": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "traceability", "robustness", "uncertainty_calibration",
+        "source_integrity", "transferability_scope_control"
+      ],
+      "properties": {
+        "traceability": { "$ref": "#/$defs/component" },
+        "robustness": { "$ref": "#/$defs/component" },
+        "uncertainty_calibration": { "$ref": "#/$defs/component" },
+        "source_integrity": { "$ref": "#/$defs/component" },
+        "transferability_scope_control": { "$ref": "#/$defs/component" }
+      }
+    },
+    "raw_score": { "type": "integer", "minimum": 0, "maximum": 100, "multipleOf": 5 },
+    "overall_score": { "type": "integer", "minimum": 0, "maximum": 100, "multipleOf": 5 },
+    "trust_label": {
+      "type": "string",
+      "enum": ["high_trust", "moderate_trust", "low_trust", "critical_or_unreliable"]
+    },
+    "capped": { "type": "boolean" },
+    "cap_value": { "type": ["integer", "null"], "enum": [60, null] },
+    "cap_reasons": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/cap_reason" }
+    },
+    "cap_reason": {
+      "anyOf": [{ "$ref": "#/$defs/cap_reason" }, { "type": "null" }]
+    },
+    "computed_from": { "const": "validator" }
+  },
+  "$defs": {
+    "cap_reason": {
+      "type": "string",
+      "enum": [
+        "unsupported_citation", "direction_mismatch", "contradicted_without_caveat",
+        "invented_reference", "missing_doi_empirical", "overextended_scope"
+      ]
+    },
+    "component": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "rule_id", "rationale", "evidence", "failure_modes", "recommended_fix"],
+      "properties": {
+        "score": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "rule_id": { "type": "string", "pattern": "^[TRUSX][0-4]_[A-Z0-9_]+$" },
+        "rationale": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "failure_modes": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "recommended_fix": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

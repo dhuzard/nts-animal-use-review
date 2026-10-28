@@ -1,0 +1,200 @@
+# ORAtlas-compatible export
+
+This repository can export its frozen claim graph into the lean review-repository
+import shape that [ORAtlas](https://github.com/dhuzard/oratlas) reads, while keeping
+native Computational Review TRUST v2 in a separate source-native artifact. The
+exporter is dependency-free Node.js and is deterministic: the same inputs always
+produce the same bytes.
+
+Target contracts: `packages/contracts/src/{artifacts,manifest}.ts` in
+`dhuzard/oratlas` at the pinned commit recorded in
+[`scripts/oratlas/contract-pin.mjs`](../scripts/oratlas/contract-pin.mjs)
+(`9cd3a0c284400b30dd0044cf3acb24df1047275d`).
+
+## Usage
+
+```bash
+node scripts/oratlas/export-oratlas.mjs \
+  --repository-url https://github.com/<org>/<review-repo> \
+  --title "<review title>" \
+  [--commit <full 40/64-hex git id>] [--release-tag v1.0.0] \
+  [--abstract "..."] [--license MIT] \
+  [--evidence-links path/to/evidence-links.json] \
+  [--claim-graph knowledge/claim_graph.json] \
+  [--trust-report knowledge/trust_score_report.json] \
+  [--bibliography content/references.bib] \
+  [--artifact-dir knowledge/oratlas] [--output-dir .]
+```
+
+`--commit` is optional on purpose: a commit cannot name a manifest that is part of
+that same commit. Pass it when exporting for an already-frozen release.
+
+Outputs:
+
+| File | Purpose |
+| --- | --- |
+| `review-manifest.json` | ORAtlas manifest (schema 1.0.0). Declares `claims`, `citations`, `relations` and `provenance` (the sidecar). Never declares `trustAssessments`. |
+| `knowledge/oratlas/claims.jsonl` | One record per review claim; `id` is the native `claim_id`, unchanged. |
+| `knowledge/oratlas/citations.jsonl` | One record per cited work; id is the BibTeX key. |
+| `knowledge/oratlas/relations.jsonl` | One record per claim→citation graph edge. |
+| `knowledge/oratlas/source-native-trust.json` | Immutable source-native companion (see below). |
+| `knowledge/oratlas/compatibility-report.json` | Records parsed/exported/dropped, lossy-shape accounting, metadata notes, digests. |
+
+Verify and validate:
+
+```bash
+# Offline: strict mirror of the ORAtlas contracts + cross-file and hash integrity.
+node scripts/oratlas/verify-oratlas-export.mjs --directory .
+
+# Authoritative: the real ORAtlas extractor (extractKnowledgeWithOutcomes) at the pin.
+git clone https://github.com/dhuzard/oratlas ../oratlas
+git -C ../oratlas checkout 9cd3a0c284400b30dd0044cf3acb24df1047275d
+(cd ../oratlas && pnpm install --frozen-lockfile --ignore-scripts --filter "@oratlas/extractor...")
+node scripts/oratlas/validate-with-oratlas.mjs --oratlas-dir ../oratlas --directory .
+ORATLAS_DIR=../oratlas node --test tests/oratlas-export.test.mjs
+```
+
+Without `ORATLAS_DIR` the extractor test is skipped; the
+`ORAtlas export contract` workflow runs it in CI. The validator also fails if the
+local contract mirror drifts from ORAtlas's enums.
+
+## Field mapping
+
+* **Claim**: `id`←`claim_id`, `text`←`claim_text`, `section`←`section_id`,
+  `anchor`←`<source_file>#p<paragraph>s<sentence>`, `claimType`←`claim_type` when it is
+  an ORAtlas claim type, `scope.method`←`claim_scope.methodological`.
+* **Citation**: BibTeX key, DOI, PMID, title, authors, year and journal only when
+  present. A DOI must be a valid bare DOI and must agree between bibliography and
+  claim graph (disagreement aborts the export). A missing or invalid DOI/PMID is
+  omitted and listed in `metadata_notes`; PMIDs are never looked up.
+* **Relation**: `supports`, `partially_supports`→`partially-supports` and
+  `contradicts` map directly. `sourceLocation` joins the verified passage locators.
+  `extractionConfidence`, `humanReviewed` and `supportDirection` are omitted rather
+  than invented. Other edge types (and non-citation targets) have no ORAtlas
+  equivalent: they are reported under `dropped` and kept in the sidecar.
+* A claim citation without an edge, or an edge to an unknown/uncited work, aborts the
+  export.
+
+## Source-native TRUST v2 (not ORAtlas TRUST)
+
+`source-native-trust.json` carries, per claim and verbatim: claim atoms,
+atom-to-citation coverage, citation contexts with passages and verification,
+independence groups and basis, entities, knowledge edges, and the whole TRUST v2
+record (rubric `2.0.0`, five components with rule IDs, raw/overall score, label,
+caps and cap reasons, score basis). It records SHA-256 and size of
+`claim_graph.json`, `trust_score_report.json`, the bibliography and any evidence-links
+file, and the shared `source_native_provenance` marker
+(`semantic_origin: source_native_trust`, `oratlas_re_adjudicated: false`).
+
+Nothing is converted: no ORAtlas `TrustAssessmentRecord`, no mapping onto ORAtlas's
+ten relation criteria, no 0–1 aggregate, no assessor or reviewer identity, no
+“verified” status. See
+[ORAtlas assessment protocol interoperability](https://github.com/dhuzard/oratlas/blob/main/docs/assessment-protocol-interoperability.md).
+
+## Three kinds of evidence statement
+
+| Level | What it is | Where |
+| --- | --- | --- |
+| **Producer finding** | A finding about a cited article in a Diggypaper evidence packet. About the article, not this review. | Only in the sidecar `evidence_links`, bound by packet and finding source SHA-256. |
+| **Review claim** | A sentence authored in this review, identified by `claim_id`. | `claims.jsonl`, and `provenance_level: review_claim` in the sidecar. |
+| **Graph relation** | A claim→citation edge in `claim_graph.json`, derived by the TRUST validator. Human confirmation is only whatever the graph records (`human_review_required`, decision references); the exporter never adds it. | `relations.jsonl`; the full edge set is in the sidecar. |
+
+### Passage-level lineage: `comprev.evidence-packet-links/2`
+
+Schema `/1` (below) binds a review citation to a finding by id and source hash only. Schema `/2` is
+additive and also carries, per finding, what is needed to follow it to the exact passage in the
+external packet: `finding_revision`, `verification_level`, `passages[]` (`passage_id`,
+`quote_sha256`, `quote_state`, `match_status`) and `assessments[]` (`assessment_id`, `protocol`
+`seip-support-v1`, `status`). No quote text, reviewer pseudonym or rationale is copied. The sidecar
+records `finding_source_sha256_basis: "article-source-snapshot"`: `source_sha256` is the digest of the
+cited article's captured source snapshot, not of the finding. `packet.sha256` is the SHA-256 of the
+packet's `manifest.json` bytes.
+
+`packet.locator` is optional and says where the exact packet can be fetched. Only two forms are
+accepted, and the digest still decides authenticity:
+
+```json
+{ "kind": "doi", "doi": "10.5281/zenodo.1234567" }
+{ "kind": "github-release-asset", "url": "https://github.com/<owner>/<repo>/releases/download/<tag>/<asset>" }
+```
+
+An absent locator is exported as `packet_locator: null` and must be read as "location not declared".
+
+#### Binding: reviewed mapping versus same-paper candidate
+
+A DOI match proves only that a finding is about a paper the claim cites. A paper can report several
+outcomes, so a DOI match is never treated as evidence for a particular claim. Every `/2` record
+declares a `binding`:
+
+| `binding` | Meaning | Extra fields |
+| --- | --- | --- |
+| `reviewed-mapping` | A review author recorded that these claims use this finding revision. | `phase2_finding_sha256` (digest of the imported Phase 2 finding) and `mappings[]` (`claim_id`, `decision_ref`, `asserted_at`, `basis`), covering exactly `claim_ids`. |
+| `same-paper-candidate` | The finding is about a paper the claims cite. Nothing more. | none |
+
+Reviewed mappings come from `knowledge/claim-finding-map.json`, schema `comprev.claim-finding-map/1`:
+
+```json
+{
+  "schema": "comprev.claim-finding-map/1",
+  "lineage_sha256": "sha256:<digest of the exact source-evidence-lineage.json bytes>",
+  "mappings": [
+    {
+      "claim_id": "clm_…",
+      "finding_id": "finding:…",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:<lineage entry phase2_finding_sha256>",
+      "decision_ref": "<pointer into the review's decision log>",
+      "asserted_at": "2026-01-03T00:00:00Z",
+      "basis": "<why this claim uses this finding>"
+    }
+  ]
+}
+```
+
+The bridge fails closed when the map is bound to other lineage bytes, names a finding revision that was
+not accepted, carries a different Phase 2 digest, maps a claim that does not cite the finding's paper,
+repeats a pair, or lacks a decision reference, timestamp or basis. No reviewer identity is recorded.
+Findings of a cited paper that are not mapped to a claim are still exported for that claim, as
+`same-paper-candidate`.
+
+The imported Phase 2 package must itself pass the executable Phase 2 import gate and Phase 5 gate
+(`phase2ImportGate`, `phase5Gate`; run with `--check-gates`). Phase 5 accepts the importer's
+`text_access: "unknown"` only for findings vouched for by a verified lineage sidecar; editing an
+imported finding breaks that. These are executable ports of the skill gates; the skills remain the
+authority for agent-run curation.
+
+Bridge from the S2 importer (no hand-written links file):
+
+```bash
+node scripts/source-evidence/lineage-to-links.mjs \
+  --lineage evidence/import/<run>/source-evidence-lineage.json \
+  --claim-graph knowledge/claim_graph.json \
+  [--claim-finding-map knowledge/claim-finding-map.json] \
+  [--locator-doi 10.5281/zenodo.1234567 | --locator-url https://github.com/<o>/<r>/releases/download/<tag>/<asset>] \
+  --out knowledge/evidence-links.json
+```
+
+A finding is associated with a review citation by exact DOI equality only; that association is a
+candidate unless the map makes it a reviewed mapping. A DOI the review does not cite, or one that maps
+to several citation keys, produces no link and is reported on stderr.
+
+To link findings, pass `--evidence-links` (schema `comprev.evidence-packet-links/1`,
+see `tests/fixtures/oratlas/evidence-links.synthetic.json`). Each link names a
+finding ID, its source SHA-256, the review citation key (and optional DOI), and the
+review claims that cite it; links that do not resolve against the claim graph abort
+the export. The fixture’s IDs and hashes are synthetic; the committed export
+therefore has no links. The Phase 2 importer referenced in the issue is not present
+in this repository, so this file format is the interface it should produce.
+
+## Compatibility report
+
+`compatibility-report.json` lists records parsed, exported and dropped; counts what
+the lean shape cannot hold (atoms, atom-level passages, independence groups,
+entities, knowledge edges, scope fields, per-citation context fields); metadata
+notes; the sidecar reference; and digests of every exported file. The expected
+ORAtlas outcome is zero skipped records and no declared TRUST artifact.
+
+## MyST
+
+The export adds only JSON/JSONL files, which the MyST build ignores; `myst.yml` and
+the existing validators are unchanged.
