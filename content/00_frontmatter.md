@@ -1,47 +1,45 @@
 ---
-title: "REVIEW TITLE"
-subtitle: A Reproducible Computational Review
+title: "NTS identifiers and animal numbers"
+subtitle: A Diggypaper → CRT → ORAtlas dry run
 ---
 
-# REVIEW TITLE
+# NTS identifiers and animal numbers
 
 :::{authorship-explorer}
 :authors: ./authors.yml
 :height: 600px
 :::
 
-:::{admonition} AI-Generated Content Disclosure
+:::{admonition} Dry run: not a scientific review
 :class: danger
 
-**This review was generated with substantial AI assistance.** The text, figures, and
-evidence synthesis were produced by an AI pipeline operating under human direction and
-supervision.
+This repository tests the evidence pipeline end to end. Its four claims are real
+statements from five open-access (CC BY 4.0) articles, but the corpus is a hand-picked set
+of eight papers and nothing here is a synthesis.
 
 :::{warning}
-**What the AI did:** Replace this placeholder with a one-paragraph description of what
-the pipeline did (e.g., searched literature databases, extracted evidence from N
-candidate papers, drafted M sections and Methods, produced K figures, ran actor-critic
-separation across the 21-phase pipeline).
+**What the automation did:** Diggypaper's deterministic NTS extractor proposed findings
+from the captured full texts, and an AI assistant, under human direction, imported the
+exported packet and assembled this section and its TRUST artifacts with
+`scripts/nts-dry-run/build-review.cjs`.
 :::
 
 :::{warning}
-**What the human did:** Replace this placeholder with a one-paragraph description of
-the human contributions (e.g., conceived the review, designed the scope, reviewed
-outputs at each phase gate, directed iterative refinement).
+**What the humans did:** the project lead reviewed every finding in Diggypaper and
+declared each article's rights from its publisher licence. The **second review of each
+finding was made by a mock reviewer account** created for this dry run; it mirrors the
+lead's decisions and is not an independent assessment, so "independently-verified" in the
+packet only exercises the path.
 :::
 
-**All evidence is traceable:** Every factual claim links to a specific paper via DOI,
-verified against CrossRef. See the Methods section for the full protocol and the
-Evidence Database for per-section interactive access to all extracted findings.
+**All evidence is traceable:** every claim links to a finding, its exact passage and the
+packet digest. See `evidence/nts-dry-run/DECISIONS.md` for the claim-finding decisions.
 :::
 
 ## Abstract
 
-:::{warning}
-Abstract will be written by the pipeline in Phase 11 (250-400 words). Replace this
-warning block with the actual abstract.
-:::
+Primary animal studies increasingly cite the EU non-technical summary (NTS) identifier of
+their project. This dry run follows four such statements, including one study's report of
+146 Wistar rats under NTS-RO-406074, from Diggypaper findings to ORAtlas claims.
 
-:::{warning}
-**Keywords:** Replace with 4-8 topic keywords.
-:::
+**Keywords:** non-technical summary, ALURES, animal numbers, evidence traceability

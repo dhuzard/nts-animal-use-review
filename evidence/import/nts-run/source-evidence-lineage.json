@@ -1,0 +1,2280 @@
+{
+  "entries": [
+    {
+      "article": {
+        "authors": [
+          "Voronkov M",
+          "Cernea M",
+          "Stefanut C",
+          "Nikonov G",
+          "Milevich G",
+          "Abernethy J"
+        ],
+        "identifiers": {
+          "doi": "10.3390/ph19060846",
+          "pmcid": "PMC13304911",
+          "pmid": "42356464"
+        },
+        "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+        "producer_ids": {
+          "article_ref": "27c0f94c-6f30-4bd3-93b7-eac234e0b11f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model."
+      },
+      "claim_source_passage_id": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99",
+      "doi": "10.3390/ph19060846",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:0caa2b38-005d-4623-86c0-b9af4333199a-1 records \"supports\"; the match is not itself support",
+          "source": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-not-comparable",
+          "field": "n",
+          "reason": "n definitions are [article-level, unknown, group]; only experimental-unit counts are imported as n. The packet values stay in the evidence text and lineage"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "rat (Wistar)",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c",
+        "numeric_results": [
+          {
+            "n": {
+              "definition": "article-level",
+              "value": 146
+            },
+            "name": "total-of-N:mixed_(as_stated):article-total:article-total",
+            "unit": "animals",
+            "value": 146,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 20
+            },
+            "name": "performed-in-N-species:unknown:cohort-total:4.",
+            "unit": "animals",
+            "value": 20,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "males-and-females-per-group:male:per-group:4.",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "males-and-females-per-group:female:per-group:4.",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 20
+            },
+            "name": "derived-cohort-total:male+female:cohort-total:4.",
+            "unit": "animals",
+            "value": 20,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "males-and-females-per-group:male:per-group:4.#2",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "males-and-females-per-group:female:per-group:4.#2",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 12
+            },
+            "name": "derived-cohort-total:male+female:cohort-total:4.#2",
+            "unit": "animals",
+            "value": 12,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 6
+            },
+            "name": "additional-males-and-females:male:additional-to-group:4.",
+            "unit": "animals",
+            "value": 6,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 6
+            },
+            "name": "additional-males-and-females:female:additional-to-group:4.",
+            "unit": "animals",
+            "value": 6,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 1
+            },
+            "name": "additional-males-and-females:male:additional-to-group:4.#2",
+            "unit": "animals",
+            "value": 1,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 1
+            },
+            "name": "additional-males-and-females:female:additional-to-group:4.#2",
+            "unit": "animals",
+            "value": 1,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 5
+            },
+            "name": "males-and-females-per-group:male:per-group:4.#3",
+            "unit": "animals",
+            "value": 5,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 5
+            },
+            "name": "males-and-females-per-group:female:per-group:4.#3",
+            "unit": "animals",
+            "value": 5,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 60
+            },
+            "name": "derived-cohort-total:male+female:cohort-total:4.#3",
+            "unit": "animals",
+            "value": 60,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 7
+            },
+            "name": "males-and-females-per-group:male:per-group:4.#4",
+            "unit": "animals",
+            "value": 7,
+            "value_appears_in_claim_source_sentence": false
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 7
+            },
+            "name": "males-and-females-per-group:female:per-group:4.#4",
+            "unit": "animals",
+            "value": 7,
+            "value_appears_in_claim_source_sentence": false
+          },
+          {
+            "n": {
+              "definition": "unknown",
+              "value": 28
+            },
+            "name": "derived-cohort-total:male+female:cohort-total:4.#4",
+            "unit": "animals",
+            "value": 28,
+            "value_appears_in_claim_source_sentence": false
+          }
+        ],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "5caa99c9-ef12-5338-8642-af3379f0687c",
+          "evidence_refs": [
+            "0e88847b-ae2c-5dd8-905d-b77d61ffdd99"
+          ],
+          "prediction_ref": "cd249071-c343-483c-85c7-01c860fd7b13"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "A total of 146 Rattus norvegicus—Wistar breed, males and females (non-pregnant), aged 4–6 months and with body weights of 163–430 g (average body weight: 278 g)—were used. The test groups were homogeneous in terms of body weight and male-to-female ratio. The rats were purchased from the accredited Laboratory Animals Unit of the Experimental Medicine Center, University of Medicine and Pharmacy, Cluj-Napoca, Romania. Rats were housed in groups of 2–3 for one week in a climate-controlled facility (22 °C with approximately 60% relative humidity), under a 12 h light/dark cycle, with food and water available ad libitum. All procedures in the study complied with the guidelines of Directive 63/2010/EU and National Law 43/2014 on the protection of animals used for scientific purposes. The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024). The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021. The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025. To determine the optimal xylazine dose for inducing overdose, a single ascending dose study was performed in 20 rats. Xylazine (Xilazin Bio 2%, 20 mg/mL, Bioveta a.s., Ivanovice na Hané, Czech Republic) was administered at five doses (0.13, 0.39, 1, 3, and 5 mg/kg) to separate groups (2 males and 2 females per dose). This phase of the study aimed to establish the optimal Fentanyl dose to induce overdose when combined with xylazine (1 mg/kg). Fentanyl (Fentanyl Kalceks, 500 µg/10 mL, Kalcex, Riga, Latvia) was administered at thre",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:32:24Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:0caa2b38-005d-4623-86c0-b9af4333199a-1",
+          "passage_id": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99",
+          "producer_ids": {
+            "support_assessment_ref": "0caa2b38-005d-4623-86c0-b9af4333199a"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "yes",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:45c429cd-8e33-4536-b9aa-89330ae822a1-1",
+          "passage_id": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99",
+          "producer_ids": {
+            "support_assessment_ref": "45c429cd-8e33-4536-b9aa-89330ae822a1"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] yes",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 0,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "b2b77415-d0b6-52cc-ad58-c7360adcaf3a",
+            "status": "exact"
+          },
+          "passage_id": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99",
+          "producer_ids": {
+            "evidence_ref": "0e88847b-ae2c-5dd8-905d-b77d61ffdd99"
+          },
+          "quote": "A total of 146 Rattus norvegicus—Wistar breed, males and females (non-pregnant), aged 4–6 months and with body weights of 163–430 g (average body weight: 278 g)—were used. The test groups were homogeneous in terms of body weight and male-to-female ratio. The rats were purchased from the accredited Laboratory Animals Unit of the Experimental Medicine Center, University of Medicine and Pharmacy, Cluj-Napoca, Romania. Rats were housed in groups of 2–3 for one week in a climate-controlled facility (22 °C with approximately 60% relative humidity), under a 12 h light/dark cycle, with food and water available ad libitum. All procedures in the study complied with the guidelines of Directive 63/2010/EU and National Law 43/2014 on the protection of animals used for scientific purposes. The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024). The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021. The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025. To determine the optimal xylazine dose for inducing overdose, a single ascending dose study was performed in 20 rats. Xylazine (Xilazin Bio 2%, 20 mg/mL, Bioveta a.s., Ivanovice na Hané, Czech Republic) was administered at five doses (0.13, 0.39, 1, 3, and 5 mg/kg) to separate groups (2 males and 2 females per dose). This phase of the study aimed to establish the optimal Fentanyl dose to induce overdose when combined with xylazine (1 mg/kg). Fentanyl (Fentanyl Kalceks, 500 µg/10 mL, Kalcex, Riga, Latvia) was administered at thre",
+          "quote_sha256": "sha256:85a93991d8941f2f9b46033239a581edc6770b30b51026ed75b1fd459030d4f9",
+          "quote_state": "included",
+          "source": {
+            "end": 2025,
+            "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+            "start": 25,
+            "view_id": "09b538bf-3cab-4a73-806e-e8207ef325e9"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:e7d0de358bdbfee0ee6c593c1a69a8ff481ccdd42f0f8b9fb8a0ba227a1de06d"
+    },
+    {
+      "article": {
+        "authors": [
+          "Voronkov M",
+          "Cernea M",
+          "Stefanut C",
+          "Nikonov G",
+          "Milevich G",
+          "Abernethy J"
+        ],
+        "identifiers": {
+          "doi": "10.3390/ph19060846",
+          "pmcid": "PMC13304911",
+          "pmid": "42356464"
+        },
+        "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+        "producer_ids": {
+          "article_ref": "27c0f94c-6f30-4bd3-93b7-eac234e0b11f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model."
+      },
+      "claim_source_passage_id": "passage:5a65283d-e953-5c44-8132-29de1688c9cf",
+      "doi": "10.3390/ph19060846",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:052f1222-671f-4fad-96fb-8186d312dfa8-1 records \"supports\"; the match is not itself support",
+          "source": "passage:5a65283d-e953-5c44-8132-29de1688c9cf"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-not-comparable",
+          "field": "n",
+          "reason": "n definitions are [group]; only experimental-unit counts are imported as n. The packet values stay in the evidence text and lineage"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "rat (Wistar)",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:3371fb0d-bd6b-5a29-8c76-37e27a53e159",
+        "numeric_results": [
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "females-plus-males-per-group:female:per-group:2.",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "females-plus-males-per-group:male:per-group:2.",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "females-plus-males-per-group:female:per-group:2.#2",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          },
+          {
+            "n": {
+              "definition": "group",
+              "value": 2
+            },
+            "name": "females-plus-males-per-group:male:per-group:2.#2",
+            "unit": "animals",
+            "value": 2,
+            "value_appears_in_claim_source_sentence": true
+          }
+        ],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "5caa99c9-ef12-5338-8642-af3379f0687c",
+          "evidence_refs": [
+            "5a65283d-e953-5c44-8132-29de1688c9cf"
+          ],
+          "prediction_ref": "cd249071-c343-483c-85c7-01c860fd7b13"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "The reported values reflect combined data (two females + two males per group; total n = 4). Considering the potentially synergistic effects of combining of XZ with FT, we decided that doses higher than 1 mg/kg could unjustifiably increase the risk of death for the animals. Therefore, we set the standard reference dose for XZ at 1 mg/kg, IM. For this study, we also evaluated low, medium, and high FT doses at 0.05, 0.104, or 0.13 mg/kg, which correspond to a 0.6–1.5 mg human dose—just under the 2 mg lethal dose [32]—and are likely to be more representative of the fentanyl contents in street opioids. With FT alone, overdose onset occurred at ~3200 s (low), 360 s (medium), and 150 s (high), as shown on Figure 1C. The reported values reflect combined data (two females + two males per group; total n = 4).",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:052f1222-671f-4fad-96fb-8186d312dfa8-1",
+          "passage_id": "passage:5a65283d-e953-5c44-8132-29de1688c9cf",
+          "producer_ids": {
+            "support_assessment_ref": "052f1222-671f-4fad-96fb-8186d312dfa8"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-22T11:51:28Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:0ed4b627-584a-4ea0-8008-c7b1faed60fb-1",
+          "passage_id": "passage:5a65283d-e953-5c44-8132-29de1688c9cf",
+          "producer_ids": {
+            "support_assessment_ref": "0ed4b627-584a-4ea0-8008-c7b1faed60fb"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        }
+      ],
+      "package_index": 1,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "715be52b-a329-5f63-a26d-30f23ab734f7",
+            "status": "exact"
+          },
+          "passage_id": "passage:5a65283d-e953-5c44-8132-29de1688c9cf",
+          "producer_ids": {
+            "evidence_ref": "5a65283d-e953-5c44-8132-29de1688c9cf"
+          },
+          "quote": "The reported values reflect combined data (two females + two males per group; total n = 4). Considering the potentially synergistic effects of combining of XZ with FT, we decided that doses higher than 1 mg/kg could unjustifiably increase the risk of death for the animals. Therefore, we set the standard reference dose for XZ at 1 mg/kg, IM. For this study, we also evaluated low, medium, and high FT doses at 0.05, 0.104, or 0.13 mg/kg, which correspond to a 0.6–1.5 mg human dose—just under the 2 mg lethal dose [32]—and are likely to be more representative of the fentanyl contents in street opioids. With FT alone, overdose onset occurred at ~3200 s (low), 360 s (medium), and 150 s (high), as shown on Figure 1C. The reported values reflect combined data (two females + two males per group; total n = 4).",
+          "quote_sha256": "sha256:2f093b6febbcf73959f013f3051eed4531db23134bf76ff7410c1e9b949a28ff",
+          "quote_state": "included",
+          "source": {
+            "end": 10633,
+            "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+            "start": 9823,
+            "view_id": "09b538bf-3cab-4a73-806e-e8207ef325e9"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:d855893cba2bdc06abaa65e2543620d5742fe852ffd880ffbf42dbd018936413"
+    },
+    {
+      "article": {
+        "authors": [
+          "Miralpeix C",
+          "Eraso-Pichot A",
+          "Simon V",
+          "Jouque V",
+          "Sadallah M",
+          "Clark S",
+          "Zizzari P",
+          "Skupio U",
+          "Covelo A",
+          "Dupuy N",
+          "Nicolas JC",
+          "Cannich A",
+          "Leste-Lasserre T",
+          "Laplagne G",
+          "Quarta C",
+          "Marsicano G",
+          "Cota D"
+        ],
+        "identifiers": {
+          "doi": "10.1002/advs.78379",
+          "pmcid": "PMC13683886",
+          "pmid": "42902516"
+        },
+        "paper_id": "paper:7115f21b-1785-4463-b1fc-872203df819b",
+        "producer_ids": {
+          "article_ref": "7115f21b-1785-4463-b1fc-872203df819b"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:af2f1b9205333b1bdf75c3819e42f200b3f0067f2495b4ac38bf364d29caefd8",
+          "snapshot_ref": "1e5535db-5022-4bf1-9ef6-61c6a44f2d8d",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Hypothalamic POMC Neurons Gate the Fear-Feeding Trade-Off."
+      },
+      "claim_source_passage_id": "passage:0edfbca5-1621-5867-b80f-224b4c52a189",
+      "doi": "10.1002/advs.78379",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:673725bd-8fbc-41f2-917a-6b692f345305-1 records \"supports\"; the match is not itself support",
+          "source": "passage:0edfbca5-1621-5867-b80f-224b4c52a189"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "2f1bee59-51d3-5a35-9d9b-993165207189",
+          "evidence_refs": [
+            "0edfbca5-1621-5867-b80f-224b4c52a189"
+          ],
+          "prediction_ref": "00b22203-483b-42eb-ab07-cbfab793aaa0"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "All procedures involving live animals were approved and conducted in strict compliance with the National and European Union Directives (2010/63/EU), the French Ministry of Agriculture, Agri‐Food and Food Sovereignty, and the Ethical Committee of the University of Bordeaux for Animal Experimentation (NTS‐FR‐283735).",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:af2f1b9205333b1bdf75c3819e42f200b3f0067f2495b4ac38bf364d29caefd8",
+          "assessment_id": "assessment:673725bd-8fbc-41f2-917a-6b692f345305-1",
+          "passage_id": "passage:0edfbca5-1621-5867-b80f-224b4c52a189",
+          "producer_ids": {
+            "support_assessment_ref": "673725bd-8fbc-41f2-917a-6b692f345305"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-22T11:52:25Z",
+          "assessed_snapshot_sha256": "sha256:af2f1b9205333b1bdf75c3819e42f200b3f0067f2495b4ac38bf364d29caefd8",
+          "assessment_id": "assessment:6eb4f29a-c5f8-478b-9674-848d7767f6c9-1",
+          "passage_id": "passage:0edfbca5-1621-5867-b80f-224b4c52a189",
+          "producer_ids": {
+            "support_assessment_ref": "6eb4f29a-c5f8-478b-9674-848d7767f6c9"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        }
+      ],
+      "package_index": 2,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "55fae6e7-697f-5df2-9fb5-87eec5f4f6e9",
+            "status": "exact"
+          },
+          "passage_id": "passage:0edfbca5-1621-5867-b80f-224b4c52a189",
+          "producer_ids": {
+            "evidence_ref": "0edfbca5-1621-5867-b80f-224b4c52a189"
+          },
+          "quote": "All procedures involving live animals were approved and conducted in strict compliance with the National and European Union Directives (2010/63/EU), the French Ministry of Agriculture, Agri‐Food and Food Sovereignty, and the Ethical Committee of the University of Bordeaux for Animal Experimentation (NTS‐FR‐283735).",
+          "quote_sha256": "sha256:5c4733d076e488ad1ccb1579c3208a168f8996dc0fe250c6995c755143ad4ff4",
+          "quote_state": "included",
+          "source": {
+            "end": 324,
+            "snapshot_ref": "1e5535db-5022-4bf1-9ef6-61c6a44f2d8d",
+            "start": 8,
+            "view_id": "78eb2c92-3a68-4b14-8305-5bec8027050f"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:88c382e379a1e98da1477a2615971494397031c4549df37d8c9c3436873a2905"
+    },
+    {
+      "article": {
+        "authors": [
+          "Voronkov M",
+          "Cernea M",
+          "Stefanut C",
+          "Nikonov G",
+          "Milevich G",
+          "Abernethy J"
+        ],
+        "identifiers": {
+          "doi": "10.3390/ph19060846",
+          "pmcid": "PMC13304911",
+          "pmid": "42356464"
+        },
+        "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+        "producer_ids": {
+          "article_ref": "27c0f94c-6f30-4bd3-93b7-eac234e0b11f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model."
+      },
+      "claim_source_passage_id": "passage:8f428fad-819c-500f-ba67-9d0839f7b832",
+      "doi": "10.3390/ph19060846",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:961cb2d4-e066-4f21-a2e7-dad589a61610-1 records \"supports\"; the match is not itself support",
+          "source": "passage:8f428fad-819c-500f-ba67-9d0839f7b832"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "72bbacf2-f172-56a2-b2ed-89ca31fe6eab",
+          "evidence_refs": [
+            "8f428fad-819c-500f-ba67-9d0839f7b832"
+          ],
+          "prediction_ref": "cd249071-c343-483c-85c7-01c860fd7b13"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:51:42Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:961cb2d4-e066-4f21-a2e7-dad589a61610-1",
+          "passage_id": "passage:8f428fad-819c-500f-ba67-9d0839f7b832",
+          "producer_ids": {
+            "support_assessment_ref": "961cb2d4-e066-4f21-a2e7-dad589a61610"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:cee28a13-2721-40b3-a111-e0053b4c9ca3-1",
+          "passage_id": "passage:8f428fad-819c-500f-ba67-9d0839f7b832",
+          "producer_ids": {
+            "support_assessment_ref": "cee28a13-2721-40b3-a111-e0053b4c9ca3"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 3,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "fa6fec76-e0c1-50ea-956c-c829d88a4198",
+            "status": "exact"
+          },
+          "passage_id": "passage:8f428fad-819c-500f-ba67-9d0839f7b832",
+          "producer_ids": {
+            "evidence_ref": "8f428fad-819c-500f-ba67-9d0839f7b832"
+          },
+          "quote": "The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025.",
+          "quote_sha256": "sha256:842a5bad407acb49042e1ea8bfc611f30e6f29ea4388d7c7eff2adcfb78646eb",
+          "quote_state": "included",
+          "source": {
+            "end": 1490,
+            "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+            "start": 1419,
+            "view_id": "09b538bf-3cab-4a73-806e-e8207ef325e9"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:028406d08b842eb4db97c1edf72cfd8ea7a2701c76fd44ebd4373bb60da758e9"
+    },
+    {
+      "article": {
+        "authors": [
+          "Lopez-Noriega L",
+          "Callingham R",
+          "Martinez-Sánchez A",
+          "Nawaz S",
+          "Pizza G",
+          "Haberman N",
+          "Cvetesic N",
+          "Nguyen-Tu MS",
+          "Lenhard B",
+          "Marchetti P",
+          "Piemonti L",
+          "de Koning E",
+          "Shapiro AMJ",
+          "Johnson PR",
+          "Leclerc I",
+          "Hastoy B",
+          "Gauthier BR",
+          "Pullen TJ",
+          "Rutter GA"
+        ],
+        "identifiers": {
+          "doi": "10.1016/j.isci.2024.111518",
+          "pmcid": "PMC11731260",
+          "pmid": "39811653"
+        },
+        "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+        "producer_ids": {
+          "article_ref": "c44e23d2-8395-46fb-934e-cad80e8133c4"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Roles for the long non-coding RNA"
+      },
+      "claim_source_passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+      "doi": "10.1016/j.isci.2024.111518",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:97ef2345-ff4d-4056-88fe-60fde19392f3-1 records \"supports\"; the match is not itself support",
+          "source": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "Db/db mice",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:73cf6a68-3460-5140-87c3-307fe81f25b8",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "ced69708-0b04-5967-971d-5dc3ba4a075b",
+          "evidence_refs": [
+            "de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+          ],
+          "prediction_ref": "adebd693-60d3-4bae-8856-8244e3142744"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:52:44Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:97ef2345-ff4d-4056-88fe-60fde19392f3-1",
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "support_assessment_ref": "97ef2345-ff4d-4056-88fe-60fde19392f3"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:e1e9ae15-3365-4394-9281-2b7a690afb80-1",
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "support_assessment_ref": "e1e9ae15-3365-4394-9281-2b7a690afb80"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 4,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "5313863a-7308-5c63-87dc-4e9f4a93a23b",
+            "status": "exact"
+          },
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "evidence_ref": "de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+          },
+          "quote": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+          "quote_sha256": "sha256:00bea6a2d5be9f0cf5bb29cd19b52bce9bc24ba4f026edd548dc409724054318",
+          "quote_state": "included",
+          "source": {
+            "end": 4396,
+            "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+            "start": 4155,
+            "view_id": "24e20512-c37c-4355-8fad-c3974f5c25b8"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:0589d64959e12364fed409a49b1dcb80de598f1c439263701715a56dd03affd7"
+    },
+    {
+      "article": {
+        "authors": [
+          "Lopez-Noriega L",
+          "Callingham R",
+          "Martinez-Sánchez A",
+          "Nawaz S",
+          "Pizza G",
+          "Haberman N",
+          "Cvetesic N",
+          "Nguyen-Tu MS",
+          "Lenhard B",
+          "Marchetti P",
+          "Piemonti L",
+          "de Koning E",
+          "Shapiro AMJ",
+          "Johnson PR",
+          "Leclerc I",
+          "Hastoy B",
+          "Gauthier BR",
+          "Pullen TJ",
+          "Rutter GA"
+        ],
+        "identifiers": {
+          "doi": "10.1016/j.isci.2024.111518",
+          "pmcid": "PMC11731260",
+          "pmid": "39811653"
+        },
+        "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+        "producer_ids": {
+          "article_ref": "c44e23d2-8395-46fb-934e-cad80e8133c4"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Roles for the long non-coding RNA"
+      },
+      "claim_source_passage_id": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce",
+      "doi": "10.1016/j.isci.2024.111518",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:9d8aeefa-bd23-40c4-8a5b-940e811da940-1 records \"supports\"; the match is not itself support",
+          "source": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "Pax6os1 null mice",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:976136b2-309a-5ab4-a6ad-532a6de7497c",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "ced69708-0b04-5967-971d-5dc3ba4a075b",
+          "evidence_refs": [
+            "3785a07d-ae7f-5cdc-9b63-27e03ef416ce"
+          ],
+          "prediction_ref": "adebd693-60d3-4bae-8856-8244e3142744"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "Pax6os1 null mice experiments were performed with the approval of the British Home Office under the UK Animal (Scientific Procedures) Act 1986 (Project License PPL PA03F7F07 to I.L.) and from the local ethical committee (Animal Welfare and Ethics Review Board, AWERB) at Imperial College London.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:9d8aeefa-bd23-40c4-8a5b-940e811da940-1",
+          "passage_id": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce",
+          "producer_ids": {
+            "support_assessment_ref": "9d8aeefa-bd23-40c4-8a5b-940e811da940"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-22T11:52:53Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:e6550cea-7ff7-4b77-980e-ea7381410432-1",
+          "passage_id": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce",
+          "producer_ids": {
+            "support_assessment_ref": "e6550cea-7ff7-4b77-980e-ea7381410432"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        }
+      ],
+      "package_index": 5,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "4a08bbb3-432f-508e-b3f7-fae061a2fde7",
+            "status": "exact"
+          },
+          "passage_id": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce",
+          "producer_ids": {
+            "evidence_ref": "3785a07d-ae7f-5cdc-9b63-27e03ef416ce"
+          },
+          "quote": "Pax6os1 null mice experiments were performed with the approval of the British Home Office under the UK Animal (Scientific Procedures) Act 1986 (Project License PPL PA03F7F07 to I.L.) and from the local ethical committee (Animal Welfare and Ethics Review Board, AWERB) at Imperial College London.",
+          "quote_sha256": "sha256:4390c7b95d08bc3502139a714af114dad42bd1622df25c6e16edc80a03515dd1",
+          "quote_state": "included",
+          "source": {
+            "end": 4154,
+            "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+            "start": 3859,
+            "view_id": "24e20512-c37c-4355-8fad-c3974f5c25b8"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:b4a9ae90d3f6ad7666555f4707625b553d6f8a92c6065403248dc4eda0c83b23"
+    },
+    {
+      "article": {
+        "authors": [
+          "Voronkov M",
+          "Cernea M",
+          "Stefanut C",
+          "Nikonov G",
+          "Milevich G",
+          "Abernethy J"
+        ],
+        "identifiers": {
+          "doi": "10.3390/ph19060846",
+          "pmcid": "PMC13304911",
+          "pmid": "42356464"
+        },
+        "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+        "producer_ids": {
+          "article_ref": "27c0f94c-6f30-4bd3-93b7-eac234e0b11f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model."
+      },
+      "claim_source_passage_id": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f",
+      "doi": "10.3390/ph19060846",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:25e0c9e4-e555-4d33-ab81-6bbf1be46c79-1 records \"supports\"; the match is not itself support",
+          "source": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:b02d7891-a49f-59c2-ad71-375074f40973",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "5a46f997-3509-5f58-b37b-402a9e00abcd",
+          "evidence_refs": [
+            "01b8fcc3-6752-5d05-91bf-debde4cc839f"
+          ],
+          "prediction_ref": "cd249071-c343-483c-85c7-01c860fd7b13"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:25e0c9e4-e555-4d33-ab81-6bbf1be46c79-1",
+          "passage_id": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f",
+          "producer_ids": {
+            "support_assessment_ref": "25e0c9e4-e555-4d33-ab81-6bbf1be46c79"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-22T11:51:54Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:c6e64f44-173a-42f4-9f93-fcf7edaecd83-1",
+          "passage_id": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f",
+          "producer_ids": {
+            "support_assessment_ref": "c6e64f44-173a-42f4-9f93-fcf7edaecd83"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        }
+      ],
+      "package_index": 6,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "33c74816-5798-5c20-a31a-02e5986c2d54",
+            "status": "exact"
+          },
+          "passage_id": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f",
+          "producer_ids": {
+            "evidence_ref": "01b8fcc3-6752-5d05-91bf-debde4cc839f"
+          },
+          "quote": "The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021.",
+          "quote_sha256": "sha256:ad9bb47ac39d1dac836fce30e2c93989c1674f2ce1d76dd884355c0ae11b221c",
+          "quote_state": "included",
+          "source": {
+            "end": 1418,
+            "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+            "start": 1129,
+            "view_id": "09b538bf-3cab-4a73-806e-e8207ef325e9"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:c252344fd49da7078f2bb84cdecfd185dc95e9c780ae1fc964700f100ba4bd2a"
+    },
+    {
+      "article": {
+        "authors": [
+          "Mouffok I",
+          "Roudaut N",
+          "Chofflet C",
+          "Freret T",
+          "Boulouard M",
+          "Bouet V"
+        ],
+        "identifiers": {
+          "doi": "10.3389/fphar.2026.1760743",
+          "pmcid": "PMC13033763",
+          "pmid": "41919233"
+        },
+        "paper_id": "paper:ed67a3d0-a809-4337-b5e8-1bf7bb676484",
+        "producer_ids": {
+          "article_ref": "ed67a3d0-a809-4337-b5e8-1bf7bb676484"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:be55c97dd87d77b6f604624f9632c3d19ee12657e2e027efad64efc79defc13b",
+          "snapshot_ref": "53c1bb31-b54e-431b-a289-81c3cd92d0eb",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Rescue of cognitive and negative-like symptoms by chronic aripiprazole treatment in a 3-hit mouse model of neurodevelopmental disorder."
+      },
+      "claim_source_passage_id": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414",
+      "doi": "10.3389/fphar.2026.1760743",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:53184e95-6e87-448b-a20a-f278576294b9-1 records \"supports\"; the match is not itself support",
+          "source": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:b13891a6-311d-59b9-8dc2-c06e75b7cd54",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "c7f7bcc5-151f-5d65-ad23-29d8a69db197",
+          "evidence_refs": [
+            "fc14fc5c-976d-55a2-bbd7-37908b4b4414"
+          ],
+          "prediction_ref": "d0140d38-291d-4a23-abbf-7d551737ae9f"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "All procedures were performed in accordance with French and European guidelines for the ethical use of laboratory animals (Directive 2010/63/EU), approved by the French ministry of research under the number APAFIS#49215-2024042615112665-v3.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:53:18Z",
+          "assessed_snapshot_sha256": "sha256:be55c97dd87d77b6f604624f9632c3d19ee12657e2e027efad64efc79defc13b",
+          "assessment_id": "assessment:53184e95-6e87-448b-a20a-f278576294b9-1",
+          "passage_id": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414",
+          "producer_ids": {
+            "support_assessment_ref": "53184e95-6e87-448b-a20a-f278576294b9"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:be55c97dd87d77b6f604624f9632c3d19ee12657e2e027efad64efc79defc13b",
+          "assessment_id": "assessment:dc6f6301-2b46-4697-aaf1-53ec0bca5cb8-1",
+          "passage_id": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414",
+          "producer_ids": {
+            "support_assessment_ref": "dc6f6301-2b46-4697-aaf1-53ec0bca5cb8"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 7,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "6185026d-71f3-5c61-85c7-072af31abeac",
+            "status": "exact"
+          },
+          "passage_id": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414",
+          "producer_ids": {
+            "evidence_ref": "fc14fc5c-976d-55a2-bbd7-37908b4b4414"
+          },
+          "quote": "All procedures were performed in accordance with French and European guidelines for the ethical use of laboratory animals (Directive 2010/63/EU), approved by the French ministry of research under the number APAFIS#49215-2024042615112665-v3.",
+          "quote_sha256": "sha256:76e1f2afd86367ef0ad23d4fa554a0bdbde6e03ce1e1695050ba3d12e18f5624",
+          "quote_state": "included",
+          "source": {
+            "end": 1252,
+            "snapshot_ref": "53c1bb31-b54e-431b-a289-81c3cd92d0eb",
+            "start": 1012,
+            "view_id": "924a96ff-2d46-47a2-bc65-566145a8d2e5"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:3f52b741acad17712db168e5bb977061ae1de1467efd36c1d0c6ad6305ea08f0"
+    },
+    {
+      "article": {
+        "authors": [
+          "Voronkov M",
+          "Cernea M",
+          "Stefanut C",
+          "Nikonov G",
+          "Milevich G",
+          "Abernethy J"
+        ],
+        "identifiers": {
+          "doi": "10.3390/ph19060846",
+          "pmcid": "PMC13304911",
+          "pmid": "42356464"
+        },
+        "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+        "producer_ids": {
+          "article_ref": "27c0f94c-6f30-4bd3-93b7-eac234e0b11f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model."
+      },
+      "claim_source_passage_id": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6",
+      "doi": "10.3390/ph19060846",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:d0be5003-1444-48d9-b385-4d4f0d227bf7-1 records \"supports\"; the match is not itself support",
+          "source": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:be7108ef-f958-546c-9511-5a3a7c9d3089",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "5a46f997-3509-5f58-b37b-402a9e00abcd",
+          "evidence_refs": [
+            "148cbbc2-904a-562b-8b6c-b5bebb3f67c6"
+          ],
+          "prediction_ref": "cd249071-c343-483c-85c7-01c860fd7b13"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024).",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:52:09Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:d0be5003-1444-48d9-b385-4d4f0d227bf7-1",
+          "passage_id": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6",
+          "producer_ids": {
+            "support_assessment_ref": "d0be5003-1444-48d9-b385-4d4f0d227bf7"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+          "assessment_id": "assessment:e1bfffb7-e3f7-4038-b207-f1736b3c806a-1",
+          "passage_id": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6",
+          "producer_ids": {
+            "support_assessment_ref": "e1bfffb7-e3f7-4038-b207-f1736b3c806a"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 8,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "b55f4ebf-2968-5817-9ed9-6006f99e4b61",
+            "status": "exact"
+          },
+          "passage_id": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6",
+          "producer_ids": {
+            "evidence_ref": "148cbbc2-904a-562b-8b6c-b5bebb3f67c6"
+          },
+          "quote": "The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024).",
+          "quote_sha256": "sha256:8e534007a1c7a9d2e60c8e66b4c4f1814b786ead50f3e829d1f4b8fc6625faaa",
+          "quote_state": "included",
+          "source": {
+            "end": 1128,
+            "snapshot_ref": "87de8801-90e4-4fa2-b9e0-e9ed932660e9",
+            "start": 812,
+            "view_id": "09b538bf-3cab-4a73-806e-e8207ef325e9"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:0ab8dc1411e8a3d4c359da8e465b39331056f768feb7e3879966104a84a0833e"
+    },
+    {
+      "article": {
+        "authors": [
+          "Lopez-Noriega L",
+          "Callingham R",
+          "Martinez-Sánchez A",
+          "Nawaz S",
+          "Pizza G",
+          "Haberman N",
+          "Cvetesic N",
+          "Nguyen-Tu MS",
+          "Lenhard B",
+          "Marchetti P",
+          "Piemonti L",
+          "de Koning E",
+          "Shapiro AMJ",
+          "Johnson PR",
+          "Leclerc I",
+          "Hastoy B",
+          "Gauthier BR",
+          "Pullen TJ",
+          "Rutter GA"
+        ],
+        "identifiers": {
+          "doi": "10.1016/j.isci.2024.111518",
+          "pmcid": "PMC11731260",
+          "pmid": "39811653"
+        },
+        "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+        "producer_ids": {
+          "article_ref": "c44e23d2-8395-46fb-934e-cad80e8133c4"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Roles for the long non-coding RNA"
+      },
+      "claim_source_passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+      "doi": "10.1016/j.isci.2024.111518",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:21adf541-0d0a-4447-8b04-2b5fa72a1db7-1 records \"supports\"; the match is not itself support",
+          "source": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "Db/db mice",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:c4da8800-4468-5f91-915f-792a379bfd17",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "6937e4ae-e5fe-5ff3-8cc8-52fded3e0c5c",
+          "evidence_refs": [
+            "de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+          ],
+          "prediction_ref": "adebd693-60d3-4bae-8856-8244e3142744"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:53:08Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:21adf541-0d0a-4447-8b04-2b5fa72a1db7-1",
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "support_assessment_ref": "21adf541-0d0a-4447-8b04-2b5fa72a1db7"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+          "assessment_id": "assessment:caa76a25-6732-4359-b761-f27617a18148-1",
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "support_assessment_ref": "caa76a25-6732-4359-b761-f27617a18148"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] Le passage énonce exactement ces valeurs.",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 9,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "5313863a-7308-5c63-87dc-4e9f4a93a23b",
+            "status": "exact"
+          },
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "producer_ids": {
+            "evidence_ref": "de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+          },
+          "quote": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+          "quote_sha256": "sha256:00bea6a2d5be9f0cf5bb29cd19b52bce9bc24ba4f026edd548dc409724054318",
+          "quote_state": "included",
+          "source": {
+            "end": 4396,
+            "snapshot_ref": "c252f907-593d-45bd-82ae-89527912617b",
+            "start": 4155,
+            "view_id": "24e20512-c37c-4355-8fad-c3974f5c25b8"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:c25bf55560218116ca9057fde29d6bdeb1110041466248c990a39ffec4beb065"
+    },
+    {
+      "article": {
+        "authors": [
+          "Caño-Carrillo S",
+          "Lozano-Velasco E",
+          "Franco D"
+        ],
+        "identifiers": {
+          "doi": "10.1007/s00018-026-06322-x",
+          "pmcid": "PMC13631190",
+          "pmid": "42412164"
+        },
+        "paper_id": "paper:17338af4-bc51-41c6-9d4c-f30903eb605f",
+        "producer_ids": {
+          "article_ref": "17338af4-bc51-41c6-9d4c-f30903eb605f"
+        },
+        "rights": {
+          "full_text_included": false,
+          "license": "CC-BY-4.0",
+          "redistribution": "allowed"
+        },
+        "source_snapshot": {
+          "sha256": "sha256:5b613cc8ba4392585b52263838ce229ba5796430e7aa736f6116545729677ea5",
+          "snapshot_ref": "c31764dc-c0c8-4be8-8711-2e1c14e36e37",
+          "state": "captured"
+        },
+        "source_type": "journal-article",
+        "title": "Elektra-Qki and Alien-Wt1 lncRNA-protein interaction controls myocardial ion channel expression and epicardial EMT during heart development in mice."
+      },
+      "claim_source_passage_id": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc",
+      "doi": "10.1007/s00018-026-06322-x",
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:35319b4a-cc14-4c03-bb75-0a2ab373b42c-1 records \"supports\"; the match is not itself support",
+          "source": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding": {
+        "context": {
+          "comparator": "unknown",
+          "experimental_unit": "unknown",
+          "exposure": "unknown",
+          "outcome": "unknown",
+          "population": "unknown",
+          "time": "unknown"
+        },
+        "created_at": "2026-10-22T11:20:24Z",
+        "export_state": "approved-for-export",
+        "finding_id": "finding:ca9bda1c-9cd9-5a95-9020-1047166d6193",
+        "numeric_results": [],
+        "origin": "source-explicit",
+        "producer_ids": {
+          "answer_ref": "ca5c1642-3cc0-5e38-82f0-9b9b4e218a8c",
+          "evidence_refs": [
+            "05f13fa7-858a-5903-bbeb-3c5f1b920ddc"
+          ],
+          "prediction_ref": "766f554c-a2c4-48ec-b82d-445a65886dd0"
+        },
+        "review_state": "human-reviewed",
+        "revision": 1,
+        "statement": "Approved consent of the Andalusian Ethic Committee was obtained prior to the initiation of the study (#09/07/2024/096 corresponding to the ALURES platform code NTS-ES-001583).",
+        "verification_level": "independently-verified"
+      },
+      "flags": [],
+      "native_assessments": [
+        {
+          "assessed_at": "2026-10-22T11:32:16Z",
+          "assessed_snapshot_sha256": "sha256:5b613cc8ba4392585b52263838ce229ba5796430e7aa736f6116545729677ea5",
+          "assessment_id": "assessment:35319b4a-cc14-4c03-bb75-0a2ab373b42c-1",
+          "passage_id": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc",
+          "producer_ids": {
+            "support_assessment_ref": "35319b4a-cc14-4c03-bb75-0a2ab373b42c"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "yes",
+          "reviewer_ref": "rv-5ae5161cff5534de774cfd2fdcc3043d2291d8d8ceaeb13b8dc668258b6c8a6d",
+          "status": "supports"
+        },
+        {
+          "assessed_at": "2026-10-28T15:06:00Z",
+          "assessed_snapshot_sha256": "sha256:5b613cc8ba4392585b52263838ce229ba5796430e7aa736f6116545729677ea5",
+          "assessment_id": "assessment:494ed4cc-f5f3-42d7-bea6-3bdc1fbf78f1-1",
+          "passage_id": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc",
+          "producer_ids": {
+            "support_assessment_ref": "494ed4cc-f5f3-42d7-bea6-3bdc1fbf78f1"
+          },
+          "protocol": "seip-support-v1",
+          "rationale": "[MOCK second review, local dry run 2026-10-28; mirrors the lead's judgment, not an independent assessment] yes",
+          "reviewer_ref": "rv-37d62622069ca20d49abca36742d23938619069f719870494f008d54611dd7c6",
+          "status": "supports"
+        }
+      ],
+      "package_index": 10,
+      "passages": [
+        {
+          "match": {
+            "matcher": "quote-matcher-v1",
+            "receipt_ref": "a3840e1b-73cb-55e7-a3c5-eb8ab58b04ee",
+            "status": "exact"
+          },
+          "passage_id": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc",
+          "producer_ids": {
+            "evidence_ref": "05f13fa7-858a-5903-bbeb-3c5f1b920ddc"
+          },
+          "quote": "Approved consent of the Andalusian Ethic Committee was obtained prior to the initiation of the study (#09/07/2024/096 corresponding to the ALURES platform code NTS-ES-001583).",
+          "quote_sha256": "sha256:201abaf773dc34385626752c40b936d951b6e1c48a377935df550ef2c9a7c327",
+          "quote_state": "included",
+          "source": {
+            "end": 912,
+            "snapshot_ref": "c31764dc-c0c8-4be8-8711-2e1c14e36e37",
+            "start": 737,
+            "view_id": "b3f34e57-2822-4c05-af04-7499314437a7"
+          }
+        }
+      ],
+      "phase2_finding_sha256": "sha256:4b3a1a3ee101b5310ade27e247cecc1a3ae628e3bc61e408cf6c2a651c0c3dda"
+    }
+  ],
+  "immutable": true,
+  "importer": {
+    "min_verification": "human-reviewed",
+    "mode": "fixed_corpus_import",
+    "name": "import-source-evidence-packet",
+    "version": "0.1.0"
+  },
+  "packet": {
+    "access_scope": {
+      "level": "public",
+      "redistributable_full_text": false
+    },
+    "artifact_sha256": {
+      "assessments.jsonl": "sha256:d690e43a453a0b8ac3f265e20298005b4237df05fe0e36592a3ef7eb4f85e02f",
+      "findings.jsonl": "sha256:078271547db5055a71dada8a98c35963b676fe6bbf15a60c64e19a12c4e63e14",
+      "papers.jsonl": "sha256:9c5ea180cd64d47cbc61b5c0ad7587b9be6168169f2efadf089706cec5819b61",
+      "passages.jsonl": "sha256:408519a8335734c02e1e54a81cd9c3d1c99707b8333cd377b633ac1d700ad0f4"
+    },
+    "created_at": "2026-10-28T15:06:00Z",
+    "creation_method": "producer-export",
+    "export_status": {
+      "reasons": [
+        "rejected=16"
+      ],
+      "state": "partial",
+      "withheld_counts": {
+        "assessments": 0,
+        "findings": 16,
+        "papers": 0,
+        "passages": 0
+      }
+    },
+    "licenses": [
+      {
+        "applies_to": "packet-metadata",
+        "license_id": "CC0-1.0"
+      },
+      {
+        "applies_to": "quotes",
+        "license_id": "CC-BY-4.0"
+      }
+    ],
+    "manifest_sha256": "sha256:6f02da10465f27848bced0f6373f0269b1309bb276d0ffb3eda34588c349e211",
+    "packet_id": "packet:279fad838ba9415a106e7d8ba29f68a6",
+    "producer": {
+      "commit": "7b820f5293d6ab649ab68cf0a9ca3e6e3dd64ba2",
+      "name": "diggypaper",
+      "schema_refs": [
+        {
+          "name": "evidence-envelope-v1",
+          "version": "1"
+        },
+        {
+          "name": "seip-support-v1",
+          "version": "1"
+        },
+        {
+          "name": "quote-matcher-v1",
+          "version": "1"
+        }
+      ]
+    },
+    "schema_version": "source-evidence-packet/0.1.0"
+  },
+  "schema_version": "source-evidence-lineage/0.1.0",
+  "statements_not_made": [
+    "A matched quotation is not semantic support; only the native human assessments recorded in this file are judgments.",
+    "No claim is made that any finding was independently replicated or that the source article is validated.",
+    "Native Diggypaper assessment statuses are not ComputationalReviewTemplate TRUST levels and are not converted to them.",
+    "Source-paper findings are not review-authored claims; article authors are citation metadata, never the origin of a finding."
+  ]
+}

@@ -1,3 +1,25 @@
+# NTS identifiers and animal numbers: a Diggypaper → ORAtlas dry run
+
+**This repository is a pipeline test, not a scientific review.** It was created from the
+Computational Review Template (below, unchanged) to run one evidence chain end to end:
+
+1. **Diggypaper** (local, producer commit `7b820f5`): eight PubMed articles about EU
+   non-technical summaries (NTS) were screened; findings were proposed by the deterministic
+   NTS extractor, reviewed by the project lead and by a **mock second reviewer** created for
+   this run (it mirrors the lead and is not an independent assessment), rights were declared
+   from each article's CC BY 4.0 licence, and a public `source-evidence-packet/0.1.0` was
+   exported (11 findings, digest `sha256:6f02da10…e211`).
+2. **CRT S2 import**: `evidence/import/nts-run/` (11 accepted, Phase 2 import gate passes).
+3. **Review**: four claims in `content/01_introduction.md`, built by
+   `scripts/nts-dry-run/build-review.cjs`; `node scripts/validate-trust.js` passes. Claim to
+   finding decisions: `evidence/nts-dry-run/DECISIONS.md`.
+4. **CRT S3 export**: `review-manifest.json` and `knowledge/oratlas/`; the evidence links
+   point to the packet published as a release asset of this repository.
+
+What this run does not claim: the ALURES record of NTS-RO-406074 (planned total 145) is a
+project-wide authorization ceiling and is not compared with the 146 rats the article reports.
+
+---
 # Computational Review Template
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21213212.svg)](https://doi.org/10.5281/zenodo.21213212)

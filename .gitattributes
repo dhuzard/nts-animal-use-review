@@ -1,1 +1,7 @@
 release_artifacts/** text eol=lf
+# Digest-pinned artifacts: keep LF bytes on every platform (the sidecar and claim-finding map hash them).
+evidence/** text eol=lf
+knowledge/** text eol=lf
+content/** text eol=lf
+review-manifest.json text eol=lf
+provenance/** text eol=lf

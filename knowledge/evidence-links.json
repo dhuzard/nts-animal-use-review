@@ -1,0 +1,379 @@
+{
+  "schema": "comprev.evidence-packet-links/2",
+  "producer": "diggypaper",
+  "packet": {
+    "id": "packet:279fad838ba9415a106e7d8ba29f68a6",
+    "sha256": "6f02da10465f27848bced0f6373f0269b1309bb276d0ffb3eda34588c349e211",
+    "locator": {
+      "kind": "github-release-asset",
+      "url": "https://github.com/dhuzard/nts-animal-use-review/releases/download/diggypaper-packet-2026-10-28/source-evidence-packet.zip"
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c",
+      "finding_revision": 1,
+      "source_sha256": "6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+      "cite_key": "Voronkov2026",
+      "doi": "10.3390/ph19060846",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99",
+          "quote_sha256": "sha256:85a93991d8941f2f9b46033239a581edc6770b30b51026ed75b1fd459030d4f9",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:0caa2b38-005d-4623-86c0-b9af4333199a-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:45c429cd-8e33-4536-b9aa-89330ae822a1-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "reviewed-mapping",
+      "phase2_finding_sha256": "sha256:e7d0de358bdbfee0ee6c593c1a69a8ff481ccdd42f0f8b9fb8a0ba227a1de06d",
+      "claim_ids": [
+        "clm_567194c3120146bd"
+      ],
+      "mappings": [
+        {
+          "claim_id": "clm_567194c3120146bd",
+          "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+          "asserted_at": "2026-10-28T15:19:00Z",
+          "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+        }
+      ]
+    },
+    {
+      "finding_id": "finding:3371fb0d-bd6b-5a29-8c76-37e27a53e159",
+      "finding_revision": 1,
+      "source_sha256": "6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+      "cite_key": "Voronkov2026",
+      "doi": "10.3390/ph19060846",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:5a65283d-e953-5c44-8132-29de1688c9cf",
+          "quote_sha256": "sha256:2f093b6febbcf73959f013f3051eed4531db23134bf76ff7410c1e9b949a28ff",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:052f1222-671f-4fad-96fb-8186d312dfa8-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:0ed4b627-584a-4ea0-8008-c7b1faed60fb-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "same-paper-candidate",
+      "claim_ids": [
+        "clm_567194c3120146bd"
+      ]
+    },
+    {
+      "finding_id": "finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45",
+      "finding_revision": 1,
+      "source_sha256": "af2f1b9205333b1bdf75c3819e42f200b3f0067f2495b4ac38bf364d29caefd8",
+      "cite_key": "Miralpeix2026",
+      "doi": "10.1002/advs.78379",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:0edfbca5-1621-5867-b80f-224b4c52a189",
+          "quote_sha256": "sha256:5c4733d076e488ad1ccb1579c3208a168f8996dc0fe250c6995c755143ad4ff4",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:673725bd-8fbc-41f2-917a-6b692f345305-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:6eb4f29a-c5f8-478b-9674-848d7767f6c9-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "reviewed-mapping",
+      "phase2_finding_sha256": "sha256:88c382e379a1e98da1477a2615971494397031c4549df37d8c9c3436873a2905",
+      "claim_ids": [
+        "clm_d9937649bf4234c7"
+      ],
+      "mappings": [
+        {
+          "claim_id": "clm_d9937649bf4234c7",
+          "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+          "asserted_at": "2026-10-28T15:19:00Z",
+          "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+        }
+      ]
+    },
+    {
+      "finding_id": "finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1",
+      "finding_revision": 1,
+      "source_sha256": "6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+      "cite_key": "Voronkov2026",
+      "doi": "10.3390/ph19060846",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:8f428fad-819c-500f-ba67-9d0839f7b832",
+          "quote_sha256": "sha256:842a5bad407acb49042e1ea8bfc611f30e6f29ea4388d7c7eff2adcfb78646eb",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:961cb2d4-e066-4f21-a2e7-dad589a61610-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:cee28a13-2721-40b3-a111-e0053b4c9ca3-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "reviewed-mapping",
+      "phase2_finding_sha256": "sha256:028406d08b842eb4db97c1edf72cfd8ea7a2701c76fd44ebd4373bb60da758e9",
+      "claim_ids": [
+        "clm_567194c3120146bd"
+      ],
+      "mappings": [
+        {
+          "claim_id": "clm_567194c3120146bd",
+          "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+          "asserted_at": "2026-10-28T15:19:00Z",
+          "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+        }
+      ]
+    },
+    {
+      "finding_id": "finding:73cf6a68-3460-5140-87c3-307fe81f25b8",
+      "finding_revision": 1,
+      "source_sha256": "874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+      "cite_key": "LopezNoriega2025",
+      "doi": "10.1016/j.isci.2024.111518",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "quote_sha256": "sha256:00bea6a2d5be9f0cf5bb29cd19b52bce9bc24ba4f026edd548dc409724054318",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:97ef2345-ff4d-4056-88fe-60fde19392f3-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:e1e9ae15-3365-4394-9281-2b7a690afb80-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "same-paper-candidate",
+      "claim_ids": [
+        "clm_6b16d5fc355f37eb"
+      ]
+    },
+    {
+      "finding_id": "finding:976136b2-309a-5ab4-a6ad-532a6de7497c",
+      "finding_revision": 1,
+      "source_sha256": "874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+      "cite_key": "LopezNoriega2025",
+      "doi": "10.1016/j.isci.2024.111518",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce",
+          "quote_sha256": "sha256:4390c7b95d08bc3502139a714af114dad42bd1622df25c6e16edc80a03515dd1",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:9d8aeefa-bd23-40c4-8a5b-940e811da940-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:e6550cea-7ff7-4b77-980e-ea7381410432-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "same-paper-candidate",
+      "claim_ids": [
+        "clm_6b16d5fc355f37eb"
+      ]
+    },
+    {
+      "finding_id": "finding:b02d7891-a49f-59c2-ad71-375074f40973",
+      "finding_revision": 1,
+      "source_sha256": "6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+      "cite_key": "Voronkov2026",
+      "doi": "10.3390/ph19060846",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f",
+          "quote_sha256": "sha256:ad9bb47ac39d1dac836fce30e2c93989c1674f2ce1d76dd884355c0ae11b221c",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:25e0c9e4-e555-4d33-ab81-6bbf1be46c79-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:c6e64f44-173a-42f4-9f93-fcf7edaecd83-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "same-paper-candidate",
+      "claim_ids": [
+        "clm_567194c3120146bd"
+      ]
+    },
+    {
+      "finding_id": "finding:be7108ef-f958-546c-9511-5a3a7c9d3089",
+      "finding_revision": 1,
+      "source_sha256": "6cb19074d27d429a3b60b5e2ce13ae8fe73aeb85dfe550eb8c0ad103cec36a33",
+      "cite_key": "Voronkov2026",
+      "doi": "10.3390/ph19060846",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6",
+          "quote_sha256": "sha256:8e534007a1c7a9d2e60c8e66b4c4f1814b786ead50f3e829d1f4b8fc6625faaa",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:d0be5003-1444-48d9-b385-4d4f0d227bf7-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:e1bfffb7-e3f7-4038-b207-f1736b3c806a-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "same-paper-candidate",
+      "claim_ids": [
+        "clm_567194c3120146bd"
+      ]
+    },
+    {
+      "finding_id": "finding:c4da8800-4468-5f91-915f-792a379bfd17",
+      "finding_revision": 1,
+      "source_sha256": "874b3d4c9378a990ff3c05f8f1072c57c562c746cc3cd3fa47dcb452f4b88489",
+      "cite_key": "LopezNoriega2025",
+      "doi": "10.1016/j.isci.2024.111518",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac",
+          "quote_sha256": "sha256:00bea6a2d5be9f0cf5bb29cd19b52bce9bc24ba4f026edd548dc409724054318",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:21adf541-0d0a-4447-8b04-2b5fa72a1db7-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:caa76a25-6732-4359-b761-f27617a18148-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "reviewed-mapping",
+      "phase2_finding_sha256": "sha256:c25bf55560218116ca9057fde29d6bdeb1110041466248c990a39ffec4beb065",
+      "claim_ids": [
+        "clm_6b16d5fc355f37eb"
+      ],
+      "mappings": [
+        {
+          "claim_id": "clm_6b16d5fc355f37eb",
+          "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+          "asserted_at": "2026-10-28T15:19:00Z",
+          "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+        }
+      ]
+    },
+    {
+      "finding_id": "finding:ca9bda1c-9cd9-5a95-9020-1047166d6193",
+      "finding_revision": 1,
+      "source_sha256": "5b613cc8ba4392585b52263838ce229ba5796430e7aa736f6116545729677ea5",
+      "cite_key": "CanoCarrillo2026",
+      "doi": "10.1007/s00018-026-06322-x",
+      "verification_level": "independently-verified",
+      "passages": [
+        {
+          "passage_id": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc",
+          "quote_sha256": "sha256:201abaf773dc34385626752c40b936d951b6e1c48a377935df550ef2c9a7c327",
+          "quote_state": "included",
+          "match_status": "exact"
+        }
+      ],
+      "assessments": [
+        {
+          "assessment_id": "assessment:35319b4a-cc14-4c03-bb75-0a2ab373b42c-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        },
+        {
+          "assessment_id": "assessment:494ed4cc-f5f3-42d7-bea6-3bdc1fbf78f1-1",
+          "protocol": "seip-support-v1",
+          "status": "supports"
+        }
+      ],
+      "binding": "reviewed-mapping",
+      "phase2_finding_sha256": "sha256:4b3a1a3ee101b5310ade27e247cecc1a3ae628e3bc61e408cf6c2a651c0c3dda",
+      "claim_ids": [
+        "clm_44256e5fd84f0a9d"
+      ],
+      "mappings": [
+        {
+          "claim_id": "clm_44256e5fd84f0a9d",
+          "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+          "asserted_at": "2026-10-28T15:19:00Z",
+          "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+        }
+      ]
+    }
+  ]
+}

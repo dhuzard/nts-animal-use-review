@@ -1,7 +1,7 @@
 {
   "schema": "comprev.oratlas-compatibility-report/1",
   "export_version": "1.0.0",
-  "generated_at": "2026-07-10T09:20:00Z",
+  "generated_at": "2026-10-28T15:19:00Z",
   "target": {
     "repository": "https://github.com/dhuzard/oratlas",
     "pinned_commit": "9cd3a0c284400b30dd0044cf3acb24df1047275d",
@@ -11,7 +11,7 @@
     ]
   },
   "source_native_provenance": {
-    "originating_repository": "https://github.com/Neuronautix/ComputationalReviewTemplate_trust-knowledge",
+    "originating_repository": "https://github.com/dhuzard/nts-animal-use-review",
     "rubric_version": "2.0.0",
     "method_version": "trust-validator-2.0.0",
     "semantic_origin": "source_native_trust",
@@ -34,13 +34,13 @@
   },
   "parsed": {
     "claims": 4,
-    "citations_cited": 5,
-    "edges": 5
+    "citations_cited": 4,
+    "edges": 4
   },
   "exported": {
     "claims": 4,
-    "citations": 5,
-    "relations": 5,
+    "citations": 4,
+    "relations": 4,
     "trust_assessments": 0
   },
   "dropped": [],
@@ -52,10 +52,10 @@
   },
   "lossy_import_shape": {
     "description": "Native fields that ORAtlas lean claim/citation/relation records cannot hold. All remain intact in the source-native sidecar.",
-    "claim_atoms": 15,
-    "atom_level_passages": 16,
-    "citation_contexts_with_independence_group": 5,
-    "entities": 7,
+    "claim_atoms": 6,
+    "atom_level_passages": 5,
+    "citation_contexts_with_independence_group": 4,
+    "entities": 6,
     "knowledge_edges": 5,
     "claim_scope_fields_lost": "biological, computational, clinical, conceptual (only methodological maps, to scope.method)",
     "claim_fields_lost": [
@@ -83,41 +83,36 @@
   },
   "metadata_notes": [
     {
-      "subject": "Cardin2009",
+      "subject": "CanoCarrillo2026",
       "field": "pmid",
       "note": "no PMID in the bibliography; omitted (not looked up)"
     },
     {
-      "subject": "Sohal2009",
+      "subject": "LopezNoriega2025",
       "field": "pmid",
       "note": "no PMID in the bibliography; omitted (not looked up)"
     },
     {
-      "subject": "benderfriedman2018datastatements",
+      "subject": "Miralpeix2026",
       "field": "pmid",
       "note": "no PMID in the bibliography; omitted (not looked up)"
     },
     {
-      "subject": "gebru2021datasheets",
-      "field": "pmid",
-      "note": "no PMID in the bibliography; omitted (not looked up)"
-    },
-    {
-      "subject": "mitchell2019modelcards",
+      "subject": "Voronkov2026",
       "field": "pmid",
       "note": "no PMID in the bibliography; omitted (not looked up)"
     }
   ],
-  "producer_finding_links": 0,
+  "producer_finding_links": 10,
   "sidecar_reference": {
     "path": "knowledge/oratlas/source-native-trust.json",
-    "sha256": "f690455a8b5e68c7a119a173066812c1661188cded972606402591c4550f89f3"
+    "sha256": "c74b95dc4cd2ed5d8a28a1ee1d09d3049b0187be14da4e60fbea1311d220afba"
   },
   "artifact_digests": {
-    "knowledge/oratlas/claims.jsonl": "d663407448466927a87bbafab41daffe44408027d2f012014d88f8641f2f7688",
-    "knowledge/oratlas/citations.jsonl": "7229e3387d640db0dbf9e6f0ee082e99c0e5c7eb2b045e66d4cc11604beb48c0",
-    "knowledge/oratlas/relations.jsonl": "01905e6f9fa2abc756183ae59ed1ab194d13e2d770cb7dbe47d91680232a621b",
-    "knowledge/oratlas/source-native-trust.json": "f690455a8b5e68c7a119a173066812c1661188cded972606402591c4550f89f3",
-    "review-manifest.json": "e7963ffa247fb5d2dcadf03c6ee32082d1ad0c321ca4b957c9867a58ee84b4b8"
+    "knowledge/oratlas/claims.jsonl": "2659db86c2228d8f57f15efd45c6b00293dec317401f820cd065ddef1342de07",
+    "knowledge/oratlas/citations.jsonl": "f0e11a5a878552b295a3a70817f48f6adfb3854a3aeb56f9fb7ce3369aa431b8",
+    "knowledge/oratlas/relations.jsonl": "cd5fc4456ee6b981523bec701dd7c04b2c15eb3b30a5d69cf9dbf6cf4f0d55cc",
+    "knowledge/oratlas/source-native-trust.json": "c74b95dc4cd2ed5d8a28a1ee1d09d3049b0187be14da4e60fbea1311d220afba",
+    "review-manifest.json": "bad9ef67101f3cfcc738dd68da884aa5ec68faf28fb09ced1e7063d4f6f6252b"
   }
 }

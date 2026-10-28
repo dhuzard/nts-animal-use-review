@@ -1,28 +1,72 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-10T09:20:00Z",
+  "generated_at": "2026-10-28T15:19:00Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score=5*sum(component_scores); overall_score=min(raw_score,60) when capped",
   "claims": [
     {
-      "claim_id": "clm_7659634fb095cdce",
+      "claim_id": "clm_567194c3120146bd",
       "score_basis": {
-        "claim_text": "Optogenetic studies in mice indicate that activating fast-spiking or parvalbumin interneurons can amplify or generate cortical gamma rhythms, while gamma-cycle timing can shape sensory-response precision.",
+        "claim_text": "A rodent overdose study reports that 146 Wistar rats were used and gives NTS-RO-406074 as the ALURES code of its research.",
         "eligible_citations": [
-          { "cite_key": "Cardin2009", "doi": "10.1038/nature08002", "role": "direct_support", "source_type": "primary", "supports_claim_atoms": ["a1", "a2"], "verified_passage_locators": ["Abstract, page 1", "Abstract, page 1"], "independence_group": "deisseroth_optogenetics_2009", "scope_match": "exact" },
-          { "cite_key": "Sohal2009", "doi": "10.1038/nature07991", "role": "partial_support", "source_type": "primary", "supports_claim_atoms": ["a1"], "verified_passage_locators": ["Abstract"], "independence_group": "deisseroth_optogenetics_2009", "scope_match": "exact" }
+          {
+            "cite_key": "Voronkov2026",
+            "doi": "10.3390/ph19060846",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1",
+              "a2"
+            ],
+            "verified_passage_locators": [
+              "Diggypaper passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99 (finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c)",
+              "Diggypaper passage:8f428fad-819c-500f-ba67-9d0839f7b832 (finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1)"
+            ],
+            "independence_group": "voronkov_2026",
+            "scope_match": "exact"
+          }
         ],
-        "atom_support": { "a1": ["Cardin2009", "Sohal2009"], "a2": ["Cardin2009"] },
-        "independence_groups_by_atom": { "a1": ["deisseroth_optogenetics_2009"], "a2": ["deisseroth_optogenetics_2009"] },
+        "atom_support": {
+          "a1": [
+            "Voronkov2026"
+          ],
+          "a2": [
+            "Voronkov2026"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "voronkov_2026"
+          ],
+          "a2": [
+            "voronkov_2026"
+          ]
+        },
         "derived_evidence_relation": "directly_supported",
-        "wording_strength": "qualified",
-        "wording_basis": { "wording_strength": "qualified", "rule_id": "SURFACE_HEDGE", "markers": ["indicate", "can", "can"] },
-        "modality": "likely",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
         "scope_status": "matched"
       },
-      "component_scores": { "traceability": 4, "robustness": 2, "uncertainty_calibration": 4, "source_integrity": 4, "transferability_scope_control": 4 },
-      "component_rules": { "traceability": "T4_ATOM_LEVEL", "robustness": "R2_SINGLE_GROUP", "uncertainty_calibration": "U4_EXACT_CALIBRATION", "source_integrity": "S4_VERIFIED_PRIMARY", "transferability_scope_control": "X4_SCOPE_MATCHED" },
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
       "raw_score": 90,
       "overall_score": 90,
       "trust_label": "high_trust",
@@ -30,70 +74,188 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_3ea62e8a65cbdb75",
+      "claim_id": "clm_d9937649bf4234c7",
       "score_basis": {
-        "claim_text": "Gebru and colleagues proposed datasheets for datasets: a standard document recording a dataset's motivation, composition, collection process, recommended uses, and maintenance - modelled on the datasheets that accompany electronic components.",
+        "claim_text": "One study approved by the University of Bordeaux animal ethics committee cites the identifier NTS-FR-283735.",
         "eligible_citations": [
-          { "cite_key": "gebru2021datasheets", "doi": "10.1145/3458723", "role": "direct_support", "source_type": "primary", "supports_claim_atoms": ["a1", "a2", "a3", "a4"], "verified_passage_locators": ["Abstract", "Abstract", "Section 1.1, Objectives", "Section 2, Electronics"], "independence_group": "gebru_etal_datasheets", "scope_match": "exact" }
+          {
+            "cite_key": "Miralpeix2026",
+            "doi": "10.1002/advs.78379",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1",
+              "a2"
+            ],
+            "verified_passage_locators": [
+              "Diggypaper passage:0edfbca5-1621-5867-b80f-224b4c52a189 (finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45)"
+            ],
+            "independence_group": "miralpeix_2026",
+            "scope_match": "exact"
+          }
         ],
-        "atom_support": { "a1": ["gebru2021datasheets"], "a2": ["gebru2021datasheets"], "a3": ["gebru2021datasheets"], "a4": ["gebru2021datasheets"] },
-        "independence_groups_by_atom": { "a1": ["gebru_etal_datasheets"], "a2": ["gebru_etal_datasheets"], "a3": ["gebru_etal_datasheets"], "a4": ["gebru_etal_datasheets"] },
+        "atom_support": {
+          "a1": [
+            "Miralpeix2026"
+          ],
+          "a2": [
+            "Miralpeix2026"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "miralpeix_2026"
+          ],
+          "a2": [
+            "miralpeix_2026"
+          ]
+        },
         "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
-        "wording_basis": { "wording_strength": "unqualified", "rule_id": "SURFACE_ATTRIBUTION", "markers": ["proposed"] },
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
         "modality": "established",
         "scope_status": "matched"
       },
-      "component_scores": { "traceability": 4, "robustness": 4, "uncertainty_calibration": 4, "source_integrity": 4, "transferability_scope_control": 4 },
-      "component_rules": { "traceability": "T4_ATOM_LEVEL", "robustness": "R4_ORIGINATING_SOURCE", "uncertainty_calibration": "U4_EXACT_CALIBRATION", "source_integrity": "S4_VERIFIED_PRIMARY", "transferability_scope_control": "X4_SCOPE_MATCHED" },
-      "raw_score": 100,
-      "overall_score": 100,
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
       "trust_label": "high_trust",
       "capped": false,
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_451ccab1daf492e4",
+      "claim_id": "clm_44256e5fd84f0a9d",
       "score_basis": {
-        "claim_text": "Mitchell and colleagues added model cards: short reports of a model's intended use, its limitations, and - crucially - its performance broken out by subgroup and context rather than as a single headline number.",
+        "claim_text": "One study links its Andalusian ethics approval to the ALURES platform code NTS-ES-001583.",
         "eligible_citations": [
-          { "cite_key": "mitchell2019modelcards", "doi": "10.1145/3287560.3287596", "role": "direct_support", "source_type": "primary", "supports_claim_atoms": ["a1", "a2", "a3", "a4"], "verified_passage_locators": ["Abstract", "Abstract", "Section 1, Introduction", "Section 1, Introduction"], "independence_group": "mitchell_etal_modelcards", "scope_match": "exact" }
+          {
+            "cite_key": "CanoCarrillo2026",
+            "doi": "10.1007/s00018-026-06322-x",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Diggypaper passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc (finding:ca9bda1c-9cd9-5a95-9020-1047166d6193)"
+            ],
+            "independence_group": "cano_carrillo_2026",
+            "scope_match": "exact"
+          }
         ],
-        "atom_support": { "a1": ["mitchell2019modelcards"], "a2": ["mitchell2019modelcards"], "a3": ["mitchell2019modelcards"], "a4": ["mitchell2019modelcards"] },
-        "independence_groups_by_atom": { "a1": ["mitchell_etal_modelcards"], "a2": ["mitchell_etal_modelcards"], "a3": ["mitchell_etal_modelcards"], "a4": ["mitchell_etal_modelcards"] },
+        "atom_support": {
+          "a1": [
+            "CanoCarrillo2026"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "cano_carrillo_2026"
+          ]
+        },
         "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
-        "wording_basis": { "wording_strength": "unqualified", "rule_id": "SURFACE_ATTRIBUTION", "markers": ["added"] },
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
         "modality": "established",
         "scope_status": "matched"
       },
-      "component_scores": { "traceability": 4, "robustness": 4, "uncertainty_calibration": 4, "source_integrity": 4, "transferability_scope_control": 4 },
-      "component_rules": { "traceability": "T4_ATOM_LEVEL", "robustness": "R4_ORIGINATING_SOURCE", "uncertainty_calibration": "U4_EXACT_CALIBRATION", "source_integrity": "S4_VERIFIED_PRIMARY", "transferability_scope_control": "X4_SCOPE_MATCHED" },
-      "raw_score": 100,
-      "overall_score": 100,
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
       "trust_label": "high_trust",
       "capped": false,
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_111c57f0f206705d",
+      "claim_id": "clm_6b16d5fc355f37eb",
       "score_basis": {
-        "claim_text": "Bender and Friedman proposed data statements for language technology to document represented populations and dataset provenance; they argued that this practice could reduce bias and improve the precision of claims about generalization.",
+        "claim_text": "A db/db mouse study cites ALURES nts-es-414463 together with the regional approval 3/11/2021/171/A.",
         "eligible_citations": [
-          { "cite_key": "benderfriedman2018datastatements", "doi": "10.1162/tacl_a_00041", "role": "direct_support", "source_type": "primary", "supports_claim_atoms": ["a1", "a2", "a3", "a4", "a5"], "verified_passage_locators": ["Abstract", "Section 3, Why Does NLP Need Data Statements?", "Section 5.1, Provenance Appendix", "Abstract", "Abstract"], "independence_group": "bender_friedman_datastatements", "scope_match": "exact" }
+          {
+            "cite_key": "LopezNoriega2025",
+            "doi": "10.1016/j.isci.2024.111518",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Diggypaper passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac (finding:c4da8800-4468-5f91-915f-792a379bfd17)"
+            ],
+            "independence_group": "lopez_noriega_2025",
+            "scope_match": "exact"
+          }
         ],
-        "atom_support": { "a1": ["benderfriedman2018datastatements"], "a2": ["benderfriedman2018datastatements"], "a3": ["benderfriedman2018datastatements"], "a4": ["benderfriedman2018datastatements"], "a5": ["benderfriedman2018datastatements"] },
-        "independence_groups_by_atom": { "a1": ["bender_friedman_datastatements"], "a2": ["bender_friedman_datastatements"], "a3": ["bender_friedman_datastatements"], "a4": ["bender_friedman_datastatements"], "a5": ["bender_friedman_datastatements"] },
+        "atom_support": {
+          "a1": [
+            "LopezNoriega2025"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "lopez_noriega_2025"
+          ]
+        },
         "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
-        "wording_basis": { "wording_strength": "unqualified", "rule_id": "SURFACE_ATTRIBUTION", "markers": ["proposed", "argued"] },
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
         "modality": "established",
         "scope_status": "matched"
       },
-      "component_scores": { "traceability": 4, "robustness": 4, "uncertainty_calibration": 4, "source_integrity": 4, "transferability_scope_control": 4 },
-      "component_rules": { "traceability": "T4_ATOM_LEVEL", "robustness": "R4_ORIGINATING_SOURCE", "uncertainty_calibration": "U4_EXACT_CALIBRATION", "source_integrity": "S4_VERIFIED_PRIMARY", "transferability_scope_control": "X4_SCOPE_MATCHED" },
-      "raw_score": 100,
-      "overall_score": 100,
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
       "trust_label": "high_trust",
       "capped": false,
       "cap_reasons": []
@@ -101,9 +263,9 @@
   ],
   "summary": {
     "total_claims": 4,
-    "mean_overall_score": 97.5,
+    "mean_overall_score": 90,
     "minimum_overall_score": 90,
-    "maximum_overall_score": 100,
+    "maximum_overall_score": 90,
     "high_trust": 4,
     "moderate_trust": 0,
     "low_trust": 0,

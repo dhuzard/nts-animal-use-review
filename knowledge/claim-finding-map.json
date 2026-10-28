@@ -1,0 +1,51 @@
+{
+  "schema": "comprev.claim-finding-map/1",
+  "lineage_sha256": "sha256:a20041ab397c1313b5777080975f3bffc4c3b6be300c6ff701eea6c1658df0df",
+  "mappings": [
+    {
+      "claim_id": "clm_567194c3120146bd",
+      "finding_id": "finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:e7d0de358bdbfee0ee6c593c1a69a8ff481ccdd42f0f8b9fb8a0ba227a1de06d",
+      "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+      "asserted_at": "2026-10-28T15:19:00Z",
+      "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+    },
+    {
+      "claim_id": "clm_567194c3120146bd",
+      "finding_id": "finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:028406d08b842eb4db97c1edf72cfd8ea7a2701c76fd44ebd4373bb60da758e9",
+      "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+      "asserted_at": "2026-10-28T15:19:00Z",
+      "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+    },
+    {
+      "claim_id": "clm_d9937649bf4234c7",
+      "finding_id": "finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:88c382e379a1e98da1477a2615971494397031c4549df37d8c9c3436873a2905",
+      "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+      "asserted_at": "2026-10-28T15:19:00Z",
+      "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+    },
+    {
+      "claim_id": "clm_44256e5fd84f0a9d",
+      "finding_id": "finding:ca9bda1c-9cd9-5a95-9020-1047166d6193",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:4b3a1a3ee101b5310ade27e247cecc1a3ae628e3bc61e408cf6c2a651c0c3dda",
+      "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+      "asserted_at": "2026-10-28T15:19:00Z",
+      "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+    },
+    {
+      "claim_id": "clm_6b16d5fc355f37eb",
+      "finding_id": "finding:c4da8800-4468-5f91-915f-792a379bfd17",
+      "finding_revision": 1,
+      "phase2_finding_sha256": "sha256:c25bf55560218116ca9057fde29d6bdeb1110041466248c990a39ffec4beb065",
+      "decision_ref": "evidence/nts-dry-run/DECISIONS.md#r1-claim-finding-mappings",
+      "asserted_at": "2026-10-28T15:19:00Z",
+      "basis": "The claim restates what this finding's supporting passage says; checked against the exported quote."
+    }
+  ]
+}

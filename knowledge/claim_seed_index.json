@@ -1,51 +1,67 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-10T09:20:00Z",
+  "generated_at": "2026-10-28T15:19:00Z",
   "generated_by_phase": "phase_5b_claim_seed",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
     {
-      "claim_id": "clm_7659634fb095cdce",
+      "claim_id": "clm_567194c3120146bd",
       "section_id": "sec-introduction",
-      "claim_text": "Optogenetic studies in mice indicate that activating fast-spiking or parvalbumin interneurons can amplify or generate cortical gamma rhythms, while gamma-cycle timing can shape sensory-response precision.",
-      "normalized_claim": "optogenetic studies in mice indicate that activating fast spiking or parvalbumin interneurons can amplify or generate cortical gamma rhythms while gamma cycle timing can shape sensory response precision",
+      "claim_text": "A rodent overdose study reports that 146 Wistar rats were used and gives NTS-RO-406074 as the ALURES code of its research.",
+      "normalized_claim": "a rodent overdose study reports that 146 wistar rats were used and gives nts ro 406074 as the alures code of its research",
       "claim_type": "empirical",
-      "modality": "likely",
-      "citation_keys": ["Cardin2009", "Sohal2009"],
-      "dois": ["10.1038/nature08002", "10.1038/nature07991"],
+      "modality": "established",
+      "citation_keys": [
+        "Voronkov2026"
+      ],
+      "dois": [
+        "10.3390/ph19060846"
+      ],
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_3ea62e8a65cbdb75",
+      "claim_id": "clm_d9937649bf4234c7",
       "section_id": "sec-introduction",
-      "claim_text": "Gebru and colleagues proposed datasheets for datasets: a standard document recording a dataset's motivation, composition, collection process, recommended uses, and maintenance - modelled on the datasheets that accompany electronic components.",
-      "normalized_claim": "gebru and colleagues proposed datasheets for datasets a standard document recording a dataset s motivation composition collection process recommended uses and maintenance modelled on the datasheets that accompany electronic components",
-      "claim_type": "methodological",
+      "claim_text": "One study approved by the University of Bordeaux animal ethics committee cites the identifier NTS-FR-283735.",
+      "normalized_claim": "one study approved by the university of bordeaux animal ethics committee cites the identifier nts fr 283735",
+      "claim_type": "empirical",
       "modality": "established",
-      "citation_keys": ["gebru2021datasheets"],
-      "dois": ["10.1145/3458723"],
+      "citation_keys": [
+        "Miralpeix2026"
+      ],
+      "dois": [
+        "10.1002/advs.78379"
+      ],
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_451ccab1daf492e4",
+      "claim_id": "clm_44256e5fd84f0a9d",
       "section_id": "sec-introduction",
-      "claim_text": "Mitchell and colleagues added model cards: short reports of a model's intended use, its limitations, and - crucially - its performance broken out by subgroup and context rather than as a single headline number.",
-      "normalized_claim": "mitchell and colleagues added model cards short reports of a model s intended use its limitations and crucially its performance broken out by subgroup and context rather than as a single headline number",
-      "claim_type": "methodological",
+      "claim_text": "One study links its Andalusian ethics approval to the ALURES platform code NTS-ES-001583.",
+      "normalized_claim": "one study links its andalusian ethics approval to the alures platform code nts es 001583",
+      "claim_type": "empirical",
       "modality": "established",
-      "citation_keys": ["mitchell2019modelcards"],
-      "dois": ["10.1145/3287560.3287596"],
+      "citation_keys": [
+        "CanoCarrillo2026"
+      ],
+      "dois": [
+        "10.1007/s00018-026-06322-x"
+      ],
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_111c57f0f206705d",
+      "claim_id": "clm_6b16d5fc355f37eb",
       "section_id": "sec-introduction",
-      "claim_text": "Bender and Friedman proposed data statements for language technology to document represented populations and dataset provenance; they argued that this practice could reduce bias and improve the precision of claims about generalization.",
-      "normalized_claim": "bender and friedman proposed data statements for language technology to document represented populations and dataset provenance they argued that this practice could reduce bias and improve the precision of claims about generalization",
-      "claim_type": "methodological",
+      "claim_text": "A db/db mouse study cites ALURES nts-es-414463 together with the regional approval 3/11/2021/171/A.",
+      "normalized_claim": "a db db mouse study cites alures nts es 414463 together with the regional approval 3 11 2021 171 a",
+      "claim_type": "empirical",
       "modality": "established",
-      "citation_keys": ["benderfriedman2018datastatements"],
-      "dois": ["10.1162/tacl_a_00041"],
+      "citation_keys": [
+        "LopezNoriega2025"
+      ],
+      "dois": [
+        "10.1016/j.isci.2024.111518"
+      ],
       "validation_status": "validated"
     }
   ]

@@ -1,0 +1,313 @@
+{
+ "42356464": {
+  "doi": "10.3390/ph19060846",
+  "doi_europepmc": "10.3390/ph19060846",
+  "pmcid": "PMC13304911",
+  "title": "Does Kappa Agonism Improve Reversal of 'Tranq-Dope' Overdose? Evidence from a Rodent Model.",
+  "authors": [
+   "Voronkov M",
+   "Cernea M",
+   "Stefanut C",
+   "Nikonov G",
+   "Milevich G",
+   "Abernethy J"
+  ],
+  "author_names": [
+   [
+    "Voronkov",
+    "Michael"
+   ],
+   [
+    "Cernea",
+    "Mihai"
+   ],
+   [
+    "Stefanut",
+    "Cristina"
+   ],
+   [
+    "Nikonov",
+    "Georgiy"
+   ],
+   [
+    "Milevich",
+    "George"
+   ],
+   [
+    "Abernethy",
+    "John"
+   ]
+  ],
+  "year": "2026",
+  "journal": "Pharmaceuticals (Basel, Switzerland)",
+  "volume": "19",
+  "pub_types": [
+   "research-article",
+   "Journal Article"
+  ],
+  "crossref_status": 200,
+  "crossref_updated_by": null,
+  "crossref_update_to": null,
+  "crossref_relation_keys": []
+ },
+ "42902516": {
+  "doi": "10.1002/advs.78379",
+  "doi_europepmc": "10.1002/advs.78379",
+  "pmcid": "PMC13683886",
+  "title": "Hypothalamic POMC Neurons Gate the Fear-Feeding Trade-Off.",
+  "authors": [
+   "Miralpeix C",
+   "Eraso-Pichot A",
+   "Simon V",
+   "Jouque V",
+   "Sadallah M",
+   "Clark S",
+   "Zizzari P",
+   "Skupio U",
+   "Covelo A",
+   "Dupuy N",
+   "Nicolas JC",
+   "Cannich A",
+   "Leste-Lasserre T",
+   "Laplagne G",
+   "Quarta C",
+   "Marsicano G",
+   "Cota D"
+  ],
+  "author_names": [
+   [
+    "Miralpeix",
+    "Cristina"
+   ],
+   [
+    "Eraso-Pichot",
+    "Abel"
+   ],
+   [
+    "Simon",
+    "Vincent"
+   ],
+   [
+    "Jouque",
+    "Victor"
+   ],
+   [
+    "Sadallah",
+    "Melissa"
+   ],
+   [
+    "Clark",
+    "Samantha"
+   ],
+   [
+    "Zizzari",
+    "Philippe"
+   ],
+   [
+    "Skupio",
+    "Urszula"
+   ],
+   [
+    "Covelo",
+    "Ana"
+   ],
+   [
+    "Dupuy",
+    "Nathalie"
+   ],
+   [
+    "Nicolas",
+    "Jean Charles"
+   ],
+   [
+    "Cannich",
+    "Astrid"
+   ],
+   [
+    "Leste-Lasserre",
+    "Thierry"
+   ],
+   [
+    "Laplagne",
+    "Guillaume"
+   ],
+   [
+    "Quarta",
+    "Carmelo"
+   ],
+   [
+    "Marsicano",
+    "Giovanni"
+   ],
+   [
+    "Cota",
+    "Daniela"
+   ]
+  ],
+  "year": "2026",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "volume": null,
+  "pub_types": [
+   "research-article",
+   "Journal Article"
+  ],
+  "crossref_status": 200,
+  "crossref_updated_by": null,
+  "crossref_update_to": null,
+  "crossref_relation_keys": []
+ },
+ "42412164": {
+  "doi": "10.1007/s00018-026-06322-x",
+  "doi_europepmc": "10.1007/s00018-026-06322-x",
+  "pmcid": "PMC13631190",
+  "title": "Elektra-Qki and Alien-Wt1 lncRNA-protein interaction controls myocardial ion channel expression and epicardial EMT during heart development in mice.",
+  "authors": [
+   "Caño-Carrillo S",
+   "Lozano-Velasco E",
+   "Franco D"
+  ],
+  "author_names": [
+   [
+    "Caño-Carrillo",
+    "Sheila"
+   ],
+   [
+    "Lozano-Velasco",
+    "Estefanía"
+   ],
+   [
+    "Franco",
+    "Diego"
+   ]
+  ],
+  "year": "2026",
+  "journal": "Cellular and molecular life sciences : CMLS",
+  "volume": "83",
+  "pub_types": [
+   "research-article",
+   "Journal Article"
+  ],
+  "crossref_status": 200,
+  "crossref_updated_by": null,
+  "crossref_update_to": null,
+  "crossref_relation_keys": [
+   "has-preprint"
+  ]
+ },
+ "39811653": {
+  "doi": "10.1016/j.isci.2024.111518",
+  "doi_europepmc": "10.1016/j.isci.2024.111518",
+  "pmcid": "PMC11731260",
+  "title": "Roles for the long non-coding RNA &lt;i&gt;Pax6os1&lt;/i&gt;/&lt;i&gt;PAX6-AS1&lt;/i&gt; in pancreatic beta cell function.",
+  "authors": [
+   "Lopez-Noriega L",
+   "Callingham R",
+   "Martinez-Sánchez A",
+   "Nawaz S",
+   "Pizza G",
+   "Haberman N",
+   "Cvetesic N",
+   "Nguyen-Tu MS",
+   "Lenhard B",
+   "Marchetti P",
+   "Piemonti L",
+   "de Koning E",
+   "Shapiro AMJ",
+   "Johnson PR",
+   "Leclerc I",
+   "Hastoy B",
+   "Gauthier BR",
+   "Pullen TJ",
+   "Rutter GA"
+  ],
+  "author_names": [
+   [
+    "Lopez-Noriega",
+    "Livia"
+   ],
+   [
+    "Callingham",
+    "Rebecca"
+   ],
+   [
+    "Martinez-Sánchez",
+    "Aida"
+   ],
+   [
+    "Nawaz",
+    "Sameena"
+   ],
+   [
+    "Pizza",
+    "Grazia"
+   ],
+   [
+    "Haberman",
+    "Nejc"
+   ],
+   [
+    "Cvetesic",
+    "Nevena"
+   ],
+   [
+    "Nguyen-Tu",
+    "Marie-Sophie"
+   ],
+   [
+    "Lenhard",
+    "Boris"
+   ],
+   [
+    "Marchetti",
+    "Piero"
+   ],
+   [
+    "Piemonti",
+    "Lorenzo"
+   ],
+   [
+    "de Koning",
+    "Eelco"
+   ],
+   [
+    "Shapiro",
+    "A M James"
+   ],
+   [
+    "Johnson",
+    "Paul R"
+   ],
+   [
+    "Leclerc",
+    "Isabelle"
+   ],
+   [
+    "Hastoy",
+    "Benoit"
+   ],
+   [
+    "Gauthier",
+    "Benoit R"
+   ],
+   [
+    "Pullen",
+    "Timothy J"
+   ],
+   [
+    "Rutter",
+    "Guy A"
+   ]
+  ],
+  "year": "2025",
+  "journal": "iScience",
+  "volume": "28",
+  "pub_types": [
+   "research-article",
+   "Journal Article"
+  ],
+  "crossref_status": 200,
+  "crossref_updated_by": null,
+  "crossref_update_to": null,
+  "crossref_relation_keys": []
+ }
+}

@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.0.0",
   "review": {
-    "title": "Computational Review Template",
+    "title": "NTS identifiers and animal numbers: a Diggypaper to ORAtlas dry run",
     "reviewType": "computational-literature-review",
     "language": "en",
+    "abstract": "Dry run following four NTS statements, including 146 Wistar rats under NTS-RO-406074, from Diggypaper findings to ORAtlas claims.",
     "license": "MIT"
   },
   "repository": {
-    "url": "https://github.com/Neuronautix/ComputationalReviewTemplate_trust-knowledge"
+    "url": "https://github.com/dhuzard/nts-animal-use-review"
   },
   "artifacts": {
     "claims": "knowledge/oratlas/claims.jsonl",

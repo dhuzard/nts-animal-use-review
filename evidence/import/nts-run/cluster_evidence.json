@@ -1,0 +1,302 @@
+{
+  "cluster_source": "source-evidence-packet:packet:279fad838ba9415a106e7d8ba29f68a6",
+  "conflict_assessment": {
+    "basis": "fixed-corpus import performs no cross-paper conflict detection; an empty conflicts[] means not assessed, not that no conflict exists",
+    "status": "not_assessed"
+  },
+  "conflicts": [],
+  "evidence_artifact_id": "source-evidence-packet:packet:279fad838ba9415a106e7d8ba29f68a6:6f02da10465f2784",
+  "evidence_gaps": [],
+  "evidence_parameters_applied": {
+    "min_papers_per_cluster": null,
+    "mode": "fixed_corpus_import",
+    "total_bibliography_target": null
+  },
+  "figure_data": [],
+  "findings": [
+    {
+      "claim": "A total of 146 Rattus norvegicus—Wistar breed, males and females (non-pregnant), aged 4–6 months and with body weights of 163–430 g (average body weight: 278 g)—were used. The test groups were homogeneous in terms of body weight and male-to-female ratio. The rats were purchased from the accredited Laboratory Animals Unit of the Experimental Medicine Center, University of Medicine and Pharmacy, Cluj-Napoca, Romania. Rats were housed in groups of 2–3 for one week in a climate-controlled facility (22 °C with approximately 60% relative humidity), under a 12 h light/dark cycle, with food and water available ad libitum. All procedures in the study complied with the guidelines of Directive 63/2010/EU and National Law 43/2014 on the protection of animals used for scientific purposes. The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024). The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021. The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025. To determine the optimal xylazine dose for inducing overdose, a single ascending dose study was performed in 20 rats. Xylazine (Xilazin Bio 2%, 20 mg/mL, Bioveta a.s., Ivanovice na Hané, Czech Republic) was administered at five doses (0.13, 0.39, 1, 3, and 5 mg/kg) to separate groups (2 males and 2 females per dose). This phase of the study aimed to establish the optimal Fentanyl dose to induce overdose when combined with xylazine (1 mg/kg). Fentanyl (Fentanyl Kalceks, 500 µg/10 mL, Kalcex, Riga, Latvia) was administered at thre",
+      "claim_source_sentence": "A total of 146 Rattus norvegicus—Wistar breed, males and females (non-pregnant), aged 4–6 months and with body weights of 163–430 g (average body weight: 278 g)—were used. The test groups were homogeneous in terms of body weight and male-to-female ratio. The rats were purchased from the accredited Laboratory Animals Unit of the Experimental Medicine Center, University of Medicine and Pharmacy, Cluj-Napoca, Romania. Rats were housed in groups of 2–3 for one week in a climate-controlled facility (22 °C with approximately 60% relative humidity), under a 12 h light/dark cycle, with food and water available ad libitum. All procedures in the study complied with the guidelines of Directive 63/2010/EU and National Law 43/2014 on the protection of animals used for scientific purposes. The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024). The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021. The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025. To determine the optimal xylazine dose for inducing overdose, a single ascending dose study was performed in 20 rats. Xylazine (Xilazin Bio 2%, 20 mg/mL, Bioveta a.s., Ivanovice na Hané, Czech Republic) was administered at five doses (0.13, 0.39, 1, 3, and 5 mg/kg) to separate groups (2 males and 2 females per dose). This phase of the study aimed to establish the optimal Fentanyl dose to induce overdose when combined with xylazine (1 mg/kg). Fentanyl (Fentanyl Kalceks, 500 µg/10 mL, Kalcex, Riga, Latvia) was administered at thre",
+      "doi": "10.3390/ph19060846",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c rev 1; wording origin: source-explicit). Context: population=rat (Wistar); exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: total-of-N:mixed_(as_stated):article-total:article-total = 146 animals (n=146, n-definition=article-level); performed-in-N-species:unknown:cohort-total:4. = 20 animals (n=20, n-definition=unknown); males-and-females-per-group:male:per-group:4. = 2 animals (n=2, n-definition=group); males-and-females-per-group:female:per-group:4. = 2 animals (n=2, n-definition=group); derived-cohort-total:male+female:cohort-total:4. = 20 animals (n=20, n-definition=unknown); males-and-females-per-group:male:per-group:4.#2 = 2 animals (n=2, n-definition=group); males-and-females-per-group:female:per-group:4.#2 = 2 animals (n=2, n-definition=group); derived-cohort-total:male+female:cohort-total:4.#2 = 12 animals (n=12, n-definition=unknown); additional-males-and-females:male:additional-to-group:4. = 6 animals (n=6, n-definition=unknown); additional-males-and-females:female:additional-to-group:4. = 6 animals (n=6, n-definition=unknown); additional-males-and-females:male:additional-to-group:4.#2 = 1 animals (n=1, n-definition=unknown); additional-males-and-females:female:additional-to-group:4.#2 = 1 animals (n=1, n-definition=unknown); males-and-females-per-group:male:per-group:4.#3 = 5 animals (n=5, n-definition=group); males-and-females-per-group:female:per-group:4.#3 = 5 animals (n=5, n-definition=group); derived-cohort-total:male+female:cohort-total:4.#3 = 60 animals (n=60, n-definition=unknown); males-and-females-per-group:male:per-group:4.#4 = 7 animals (n=7, n-definition=group); males-and-females-per-group:female:per-group:4.#4 = 7 animals (n=7, n-definition=group); derived-cohort-total:male+female:cohort-total:4.#4 = 28 animals (n=28, n-definition=unknown).",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "rat (Wistar)",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "The reported values reflect combined data (two females + two males per group; total n = 4). Considering the potentially synergistic effects of combining of XZ with FT, we decided that doses higher than 1 mg/kg could unjustifiably increase the risk of death for the animals. Therefore, we set the standard reference dose for XZ at 1 mg/kg, IM. For this study, we also evaluated low, medium, and high FT doses at 0.05, 0.104, or 0.13 mg/kg, which correspond to a 0.6–1.5 mg human dose—just under the 2 mg lethal dose [32]—and are likely to be more representative of the fentanyl contents in street opioids. With FT alone, overdose onset occurred at ~3200 s (low), 360 s (medium), and 150 s (high), as shown on Figure 1C. The reported values reflect combined data (two females + two males per group; total n = 4).",
+      "claim_source_sentence": "The reported values reflect combined data (two females + two males per group; total n = 4). Considering the potentially synergistic effects of combining of XZ with FT, we decided that doses higher than 1 mg/kg could unjustifiably increase the risk of death for the animals. Therefore, we set the standard reference dose for XZ at 1 mg/kg, IM. For this study, we also evaluated low, medium, and high FT doses at 0.05, 0.104, or 0.13 mg/kg, which correspond to a 0.6–1.5 mg human dose—just under the 2 mg lethal dose [32]—and are likely to be more representative of the fentanyl contents in street opioids. With FT alone, overdose onset occurred at ~3200 s (low), 360 s (medium), and 150 s (high), as shown on Figure 1C. The reported values reflect combined data (two females + two males per group; total n = 4).",
+      "doi": "10.3390/ph19060846",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:3371fb0d-bd6b-5a29-8c76-37e27a53e159 rev 1; wording origin: source-explicit). Context: population=rat (Wistar); exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: females-plus-males-per-group:female:per-group:2. = 2 animals (n=2, n-definition=group); females-plus-males-per-group:male:per-group:2. = 2 animals (n=2, n-definition=group); females-plus-males-per-group:female:per-group:2.#2 = 2 animals (n=2, n-definition=group); females-plus-males-per-group:male:per-group:2.#2 = 2 animals (n=2, n-definition=group).",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "rat (Wistar)",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "All procedures involving live animals were approved and conducted in strict compliance with the National and European Union Directives (2010/63/EU), the French Ministry of Agriculture, Agri‐Food and Food Sovereignty, and the Ethical Committee of the University of Bordeaux for Animal Experimentation (NTS‐FR‐283735).",
+      "claim_source_sentence": "All procedures involving live animals were approved and conducted in strict compliance with the National and European Union Directives (2010/63/EU), the French Ministry of Agriculture, Agri‐Food and Food Sovereignty, and the Ethical Committee of the University of Bordeaux for Animal Experimentation (NTS‐FR‐283735).",
+      "doi": "10.1002/advs.78379",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025.",
+      "claim_source_sentence": "The ALURES code for the research is: NTS-RO-406074 v.1, 8 October 2025.",
+      "doi": "10.3390/ph19060846",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+      "claim_source_sentence": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+      "doi": "10.1016/j.isci.2024.111518",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:73cf6a68-3460-5140-87c3-307fe81f25b8 rev 1; wording origin: source-explicit). Context: population=Db/db mice; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "Db/db mice",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "Pax6os1 null mice experiments were performed with the approval of the British Home Office under the UK Animal (Scientific Procedures) Act 1986 (Project License PPL PA03F7F07 to I.L.) and from the local ethical committee (Animal Welfare and Ethics Review Board, AWERB) at Imperial College London.",
+      "claim_source_sentence": "Pax6os1 null mice experiments were performed with the approval of the British Home Office under the UK Animal (Scientific Procedures) Act 1986 (Project License PPL PA03F7F07 to I.L.) and from the local ethical committee (Animal Welfare and Ethics Review Board, AWERB) at Imperial College London.",
+      "doi": "10.1016/j.isci.2024.111518",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:976136b2-309a-5ab4-a6ad-532a6de7497c rev 1; wording origin: source-explicit). Context: population=Pax6os1 null mice; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "Pax6os1 null mice",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021.",
+      "claim_source_sentence": "The animals were accommodated and used for the experiments within the project at the Unit for Breeding and Use of Laboratory Animals of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca, which operates on the basis of the Veterinary authorization 926/6 June 2021.",
+      "doi": "10.3390/ph19060846",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:b02d7891-a49f-59c2-ad71-375074f40973 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "All procedures were performed in accordance with French and European guidelines for the ethical use of laboratory animals (Directive 2010/63/EU), approved by the French ministry of research under the number APAFIS#49215-2024042615112665-v3.",
+      "claim_source_sentence": "All procedures were performed in accordance with French and European guidelines for the ethical use of laboratory animals (Directive 2010/63/EU), approved by the French ministry of research under the number APAFIS#49215-2024042615112665-v3.",
+      "doi": "10.3389/fphar.2026.1760743",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:b13891a6-311d-59b9-8dc2-c06e75b7cd54 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024).",
+      "claim_source_sentence": "The project was carried out with the approval of the Bioethics and Research Ethics Committee of the University of Agricultural Sciences and Veterinary Medicine Cluj Napoca (435/13 March 2024), and the project authorization was issued by the National Sanitary Veterinary and Food Safety Authority (406/29 April 2024).",
+      "doi": "10.3390/ph19060846",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:be7108ef-f958-546c-9511-5a3a7c9d3089 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+      "claim_source_sentence": "Db/db mice procedures were approved by the Andalusian Regional Ministry of Agriculture, Fish, Water and Rural Development (#3/11/2021/171/A and ALURES #nts-es-414463) and performed in accordance with the Spanish law on animal use RD 53/2013.",
+      "doi": "10.1016/j.isci.2024.111518",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:c4da8800-4468-5f91-915f-792a379bfd17 rev 1; wording origin: source-explicit). Context: population=Db/db mice; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "Db/db mice",
+      "text_access": "unknown"
+    },
+    {
+      "claim": "Approved consent of the Andalusian Ethic Committee was obtained prior to the initiation of the study (#09/07/2024/096 corresponding to the ALURES platform code NTS-ES-001583).",
+      "claim_source_sentence": "Approved consent of the Andalusian Ethic Committee was obtained prior to the initiation of the study (#09/07/2024/096 corresponding to the ALURES platform code NTS-ES-001583).",
+      "doi": "10.1007/s00018-026-06322-x",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "evidence": "Source-paper finding imported from packet:279fad838ba9415a106e7d8ba29f68a6 (finding:ca9bda1c-9cd9-5a95-9020-1047166d6193 rev 1; wording origin: source-explicit). Context: population=unknown; exposure=unknown; comparator=unknown; outcome=unknown; time=unknown; experimental unit=unknown. Numeric results: none exported.",
+      "n": null,
+      "replication_evidence_dois": [],
+      "replication_status": "replication_unknown",
+      "study_system": "unknown",
+      "text_access": "unknown"
+    }
+  ],
+  "import_provenance": {
+    "importer": {
+      "min_verification": "human-reviewed",
+      "mode": "fixed_corpus_import",
+      "name": "import-source-evidence-packet",
+      "version": "0.1.0"
+    },
+    "lineage_file": "source-evidence-lineage.json",
+    "lineage_sha256": "sha256:a20041ab397c1313b5777080975f3bffc4c3b6be300c6ff701eea6c1658df0df",
+    "packet_id": "packet:279fad838ba9415a106e7d8ba29f68a6",
+    "packet_manifest_sha256": "sha256:6f02da10465f27848bced0f6373f0269b1309bb276d0ffb3eda34588c349e211"
+  },
+  "papers_reviewed_count": 5,
+  "pilot_exceptions": [
+    {
+      "category": "fixed-corpus",
+      "check": "PAPER_COUNT_FLOOR",
+      "reason": "corpus size is fixed by the packet, not by min_papers_per_cluster"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "CROSS_CLUSTER_UNIQUE_DOIS",
+      "reason": "corpus size is fixed by the packet"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "BIBLIOGRAPHY_FLOOR_HARD",
+      "reason": "total_bibliography_target is not applied to an imported fixed corpus; record the user decision in gate_evidence_compliance.json user_signoff"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "PAPER_COUNT",
+      "reason": "corpus size is fixed by the packet"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "SHAPE_NOT_UNIFORM",
+      "reason": "a single imported cluster has no per-cluster spread to test"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "FIGURE_DATA_PRESENT",
+      "reason": "packets carry no cross-paper figure comparisons"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "FIGURE_DATA",
+      "reason": "packets carry no cross-paper figure comparisons"
+    },
+    {
+      "category": "not-invented",
+      "check": "EFFECT_SIZE_RATE",
+      "reason": "the contract has no effect-size field; none is computed or imputed"
+    },
+    {
+      "category": "not-invented",
+      "check": "SAMPLE_SIZE_RATE",
+      "reason": "n is imported only where the packet defines it as an experimental-unit count"
+    },
+    {
+      "category": "not-invented",
+      "check": "REPLICATION_UNKNOWN_CEILING",
+      "reason": "replication is never inferred from packet data"
+    },
+    {
+      "category": "no-synthesis",
+      "check": "WEAKEST_EVIDENCE_SUBSTANTIVE",
+      "reason": "the importer does not judge evidence strength"
+    },
+    {
+      "category": "no-search",
+      "check": "SEARCH_FAILURES_PRESENT",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "no-search",
+      "check": "CONTRADICTION_QUERIES_EXECUTED",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "no-synthesis",
+      "check": "FALSE_CONSENSUS_RISKS_IDENTIFIED",
+      "reason": "the importer does not identify evidence gaps"
+    },
+    {
+      "category": "no-search",
+      "check": "SATURATION_LOGGED",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "offline",
+      "check": "DOI_RESOLVES",
+      "reason": "import is offline; DOI resolution is not attempted"
+    },
+    {
+      "category": "offline",
+      "check": "DOI_TITLE_CROSSCHECK",
+      "reason": "import is offline; CrossRef is not queried"
+    },
+    {
+      "category": "offline",
+      "check": "SOURCE_PROVENANCE",
+      "reason": "no abstract is retrieved; text_access stays \"unknown\" rather than being deduced"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_HONEST",
+      "reason": "no document is retrieved, so no size test can establish fulltext"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_HONEST_v2",
+      "reason": "no document is retrieved, so no size test can establish fulltext"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_RATE_PER_CLUSTER",
+      "reason": "text_access is not determined by the packet"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_RATE_OVERALL",
+      "reason": "text_access is not determined by the packet"
+    },
+    {
+      "category": "import-semantics",
+      "check": "SOURCE_LENGTH",
+      "reason": "a length heuristic aimed at agent extraction; the quote is a verbatim packet passage"
+    },
+    {
+      "category": "import-semantics",
+      "check": "CLAIM_DIFFERS_FROM_SOURCE",
+      "reason": "a source-explicit finding may legitimately equal its source sentence"
+    }
+  ],
+  "search_failures": [],
+  "strongest_evidence": {},
+  "total_findings": 11,
+  "unique_papers": 5,
+  "unreplicated_claims": [],
+  "weakest_evidence_cited": {}
+}

@@ -1,44 +1,44 @@
 (sec-introduction)=
-# Introduction
+# NTS identifiers and animal numbers
 
-*This section will be written by the pipeline.*
+This dry-run review checks how primary animal studies report the EU non-technical summary (NTS) identifier of their project and the number of animals they used. Each claim below is anchored to a finding reviewed in Diggypaper and imported from its source-evidence packet.
 
-Optogenetic studies in mice indicate that activating fast-spiking or parvalbumin interneurons can amplify or generate cortical gamma rhythms, while gamma-cycle timing can shape sensory-response precision. {cite:p}`Cardin2009,Sohal2009`
+A rodent overdose study reports that 146 Wistar rats were used and gives NTS-RO-406074 as the ALURES code of its research. {cite:p}`Voronkov2026`
 
 :::{trust-claim}
-:claim-id: clm_7659634fb095cdce
-:claim: "Optogenetic studies in mice indicate that activating fast-spiking or parvalbumin interneurons can amplify or generate cortical gamma rhythms, while gamma-cycle timing can shape sensory-response precision."
-:cites: Cardin2009, Sohal2009
+:claim-id: clm_567194c3120146bd
+:claim: "A rodent overdose study reports that 146 Wistar rats were used and gives NTS-RO-406074 as the ALURES code of its research."
+:cites: Voronkov2026
 :claim-type: empirical
-:modality: likely
-:::
-
-Machine learning discovered, painfully, that undocumented datasets are a primary source of downstream harm. Gebru and colleagues proposed **datasheets for datasets**: a standard document recording a dataset's motivation, composition, collection process, recommended uses, and maintenance - modelled on the datasheets that accompany electronic components. Their key insight for us is not the template but its function: documentation is a debt-prevention instrument, one that makes deferred decisions visible at the point of reuse, forcing the creator to confront their collection assumptions and letting the consumer judge fitness for a new purpose. {cite:p}`gebru2021datasheets`
-
-:::{trust-claim}
-:claim-id: clm_3ea62e8a65cbdb75
-:claim: "Gebru and colleagues proposed datasheets for datasets: a standard document recording a dataset's motivation, composition, collection process, recommended uses, and maintenance - modelled on the datasheets that accompany electronic components."
-:cites: gebru2021datasheets
-:claim-type: methodological
 :modality: established
 :::
 
-Mitchell and colleagues added **model cards**: short reports of a model's intended use, its limitations, and - crucially - its performance broken out by subgroup and context rather than as a single headline number. Disaggregated reporting surfaces exactly what an aggregate conceals. {cite:p}`mitchell2019modelcards`
+One study approved by the University of Bordeaux animal ethics committee cites the identifier NTS-FR-283735. {cite:p}`Miralpeix2026`
 
 :::{trust-claim}
-:claim-id: clm_451ccab1daf492e4
-:claim: "Mitchell and colleagues added model cards: short reports of a model's intended use, its limitations, and - crucially - its performance broken out by subgroup and context rather than as a single headline number."
-:cites: mitchell2019modelcards
-:claim-type: methodological
+:claim-id: clm_d9937649bf4234c7
+:claim: "One study approved by the University of Bordeaux animal ethics committee cites the identifier NTS-FR-283735."
+:cites: Miralpeix2026
+:claim-type: empirical
 :modality: established
 :::
 
-Bender and Friedman proposed **data statements** for language technology to document represented populations and dataset provenance; they argued that this practice could reduce bias and improve the precision of claims about generalization. {cite:p}`benderfriedman2018datastatements`
+One study links its Andalusian ethics approval to the ALURES platform code NTS-ES-001583. {cite:p}`CanoCarrillo2026`
 
 :::{trust-claim}
-:claim-id: clm_111c57f0f206705d
-:claim: "Bender and Friedman proposed data statements for language technology to document represented populations and dataset provenance; they argued that this practice could reduce bias and improve the precision of claims about generalization."
-:cites: benderfriedman2018datastatements
-:claim-type: methodological
+:claim-id: clm_44256e5fd84f0a9d
+:claim: "One study links its Andalusian ethics approval to the ALURES platform code NTS-ES-001583."
+:cites: CanoCarrillo2026
+:claim-type: empirical
+:modality: established
+:::
+
+A db/db mouse study cites ALURES nts-es-414463 together with the regional approval 3/11/2021/171/A. {cite:p}`LopezNoriega2025`
+
+:::{trust-claim}
+:claim-id: clm_6b16d5fc355f37eb
+:claim: "A db/db mouse study cites ALURES nts-es-414463 together with the regional approval 3/11/2021/171/A."
+:cites: LopezNoriega2025
+:claim-type: empirical
 :modality: established
 :::

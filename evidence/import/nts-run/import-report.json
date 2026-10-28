@@ -1,0 +1,970 @@
+{
+  "counts": {
+    "by_reason": {},
+    "consumer_classes": {
+      "incompatible": 0,
+      "restricted": 0
+    },
+    "findings": {
+      "accepted": 11,
+      "incomplete": 0,
+      "rejected": 0,
+      "withheld": 0
+    },
+    "omitted_by_producer": {
+      "assessments": 0,
+      "findings": 16,
+      "papers": 0,
+      "passages": 0
+    },
+    "producer_export_state": "partial"
+  },
+  "findings": [
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:0caa2b38-005d-4623-86c0-b9af4333199a-1 records \"supports\"; the match is not itself support",
+          "source": "passage:0e88847b-ae2c-5dd8-905d-b77d61ffdd99"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-not-comparable",
+          "field": "n",
+          "reason": "n definitions are [article-level, unknown, group]; only experimental-unit counts are imported as n. The packet values stay in the evidence text and lineage"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:2a958f65-3a5b-5195-8102-b86bff8dbe8c",
+      "flags": [],
+      "package_index": 0,
+      "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:052f1222-671f-4fad-96fb-8186d312dfa8-1 records \"supports\"; the match is not itself support",
+          "source": "passage:5a65283d-e953-5c44-8132-29de1688c9cf"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-not-comparable",
+          "field": "n",
+          "reason": "n definitions are [group]; only experimental-unit counts are imported as n. The packet values stay in the evidence text and lineage"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:3371fb0d-bd6b-5a29-8c76-37e27a53e159",
+      "flags": [],
+      "package_index": 1,
+      "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:673725bd-8fbc-41f2-917a-6b692f345305-1 records \"supports\"; the match is not itself support",
+          "source": "passage:0edfbca5-1621-5867-b80f-224b4c52a189"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:3eb0bbba-0e41-520f-9ea9-133e5dd09b45",
+      "flags": [],
+      "package_index": 2,
+      "paper_id": "paper:7115f21b-1785-4463-b1fc-872203df819b",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:961cb2d4-e066-4f21-a2e7-dad589a61610-1 records \"supports\"; the match is not itself support",
+          "source": "passage:8f428fad-819c-500f-ba67-9d0839f7b832"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:4aa0f2a1-e7f8-5ee9-8ff3-ca1e795cfdd1",
+      "flags": [],
+      "package_index": 3,
+      "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:97ef2345-ff4d-4056-88fe-60fde19392f3-1 records \"supports\"; the match is not itself support",
+          "source": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:73cf6a68-3460-5140-87c3-307fe81f25b8",
+      "flags": [],
+      "package_index": 4,
+      "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:9d8aeefa-bd23-40c4-8a5b-940e811da940-1 records \"supports\"; the match is not itself support",
+          "source": "passage:3785a07d-ae7f-5cdc-9b63-27e03ef416ce"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:976136b2-309a-5ab4-a6ad-532a6de7497c",
+      "flags": [],
+      "package_index": 5,
+      "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:25e0c9e4-e555-4d33-ab81-6bbf1be46c79-1 records \"supports\"; the match is not itself support",
+          "source": "passage:01b8fcc3-6752-5d05-91bf-debde4cc839f"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:b02d7891-a49f-59c2-ad71-375074f40973",
+      "flags": [],
+      "package_index": 6,
+      "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:53184e95-6e87-448b-a20a-f278576294b9-1 records \"supports\"; the match is not itself support",
+          "source": "passage:fc14fc5c-976d-55a2-bbd7-37908b4b4414"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:b13891a6-311d-59b9-8dc2-c06e75b7cd54",
+      "flags": [],
+      "package_index": 7,
+      "paper_id": "paper:ed67a3d0-a809-4337-b5e8-1bf7bb676484",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:d0be5003-1444-48d9-b385-4d4f0d227bf7-1 records \"supports\"; the match is not itself support",
+          "source": "passage:148cbbc2-904a-562b-8b6c-b5bebb3f67c6"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:be7108ef-f958-546c-9511-5a3a7c9d3089",
+      "flags": [],
+      "package_index": 8,
+      "paper_id": "paper:27c0f94c-6f30-4bd3-93b7-eac234e0b11f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:21adf541-0d0a-4447-8b04-2b5fa72a1db7-1 records \"supports\"; the match is not itself support",
+          "source": "passage:de1e4f0a-1f5d-5760-9e2e-b1f6b95716ac"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "mapped",
+          "field": "study_system",
+          "reason": "population text carried as written",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:c4da8800-4468-5f91-915f-792a379bfd17",
+      "flags": [],
+      "package_index": 9,
+      "paper_id": "paper:c44e23d2-8395-46fb-934e-cad80e8133c4",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    },
+    {
+      "field_report": [
+        {
+          "disposition": "mapped",
+          "field": "claim",
+          "reason": "wording origin source-explicit; not attributed to the article authors",
+          "source": "finding.statement"
+        },
+        {
+          "disposition": "mapped-verbatim",
+          "field": "claim_source_sentence",
+          "reason": "exact match; native assessment assessment:35319b4a-cc14-4c03-bb75-0a2ab373b42c-1 records \"supports\"; the match is not itself support",
+          "source": "passage:05f13fa7-858a-5903-bbeb-3c5f1b920ddc"
+        },
+        {
+          "disposition": "mapped",
+          "field": "doi",
+          "reason": "normalized to lower case without resolver prefix",
+          "source": "paper.identifiers.doi"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "study_system",
+          "reason": "the packet states the population is unknown; kept as the literal \"unknown\"",
+          "source": "context.population"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size",
+          "reason": "the contract has no effect-size field; none is computed or imputed"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "effect_size_source_sentence",
+          "reason": "no effect size is imported, so no sentence is attached to one"
+        },
+        {
+          "disposition": "null-absent-in-packet",
+          "field": "n",
+          "reason": "no numeric result with an n was exported"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_status",
+          "reason": "packet carries no replication data; independently-verified counts reviewers, not replications"
+        },
+        {
+          "disposition": "constant",
+          "field": "replication_evidence_dois",
+          "reason": "empty: no replication evidence in packet"
+        },
+        {
+          "disposition": "unknown-kept",
+          "field": "text_access",
+          "reason": "the packet does not record whether the passage comes from the abstract or the body, and this cannot be deduced from size or from a sentence appearing in both"
+        },
+        {
+          "disposition": "composed",
+          "field": "evidence",
+          "reason": "context and the packet's numeric results with their n-definitions, as written",
+          "source": "context, numeric_results"
+        }
+      ],
+      "finding_id": "finding:ca9bda1c-9cd9-5a95-9020-1047166d6193",
+      "flags": [],
+      "package_index": 10,
+      "paper_id": "paper:17338af4-bc51-41c6-9d4c-f30903eb605f",
+      "reasons": [],
+      "revision": 1,
+      "status": "accepted"
+    }
+  ],
+  "importer": {
+    "min_verification": "human-reviewed",
+    "mode": "fixed_corpus_import",
+    "name": "import-source-evidence-packet",
+    "version": "0.1.0"
+  },
+  "outputs": {
+    "lineage": "source-evidence-lineage.json",
+    "lineage_sha256": "sha256:a20041ab397c1313b5777080975f3bffc4c3b6be300c6ff701eea6c1658df0df",
+    "phase2": "cluster_evidence.json"
+  },
+  "packet": {
+    "manifest_sha256": "sha256:6f02da10465f27848bced0f6373f0269b1309bb276d0ffb3eda34588c349e211",
+    "packet_id": "packet:279fad838ba9415a106e7d8ba29f68a6"
+  },
+  "pilot_exceptions": [
+    {
+      "category": "fixed-corpus",
+      "check": "PAPER_COUNT_FLOOR",
+      "reason": "corpus size is fixed by the packet, not by min_papers_per_cluster"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "CROSS_CLUSTER_UNIQUE_DOIS",
+      "reason": "corpus size is fixed by the packet"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "BIBLIOGRAPHY_FLOOR_HARD",
+      "reason": "total_bibliography_target is not applied to an imported fixed corpus; record the user decision in gate_evidence_compliance.json user_signoff"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "PAPER_COUNT",
+      "reason": "corpus size is fixed by the packet"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "SHAPE_NOT_UNIFORM",
+      "reason": "a single imported cluster has no per-cluster spread to test"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "FIGURE_DATA_PRESENT",
+      "reason": "packets carry no cross-paper figure comparisons"
+    },
+    {
+      "category": "fixed-corpus",
+      "check": "FIGURE_DATA",
+      "reason": "packets carry no cross-paper figure comparisons"
+    },
+    {
+      "category": "not-invented",
+      "check": "EFFECT_SIZE_RATE",
+      "reason": "the contract has no effect-size field; none is computed or imputed"
+    },
+    {
+      "category": "not-invented",
+      "check": "SAMPLE_SIZE_RATE",
+      "reason": "n is imported only where the packet defines it as an experimental-unit count"
+    },
+    {
+      "category": "not-invented",
+      "check": "REPLICATION_UNKNOWN_CEILING",
+      "reason": "replication is never inferred from packet data"
+    },
+    {
+      "category": "no-synthesis",
+      "check": "WEAKEST_EVIDENCE_SUBSTANTIVE",
+      "reason": "the importer does not judge evidence strength"
+    },
+    {
+      "category": "no-search",
+      "check": "SEARCH_FAILURES_PRESENT",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "no-search",
+      "check": "CONTRADICTION_QUERIES_EXECUTED",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "no-synthesis",
+      "check": "FALSE_CONSENSUS_RISKS_IDENTIFIED",
+      "reason": "the importer does not identify evidence gaps"
+    },
+    {
+      "category": "no-search",
+      "check": "SATURATION_LOGGED",
+      "reason": "the importer performs no literature search"
+    },
+    {
+      "category": "offline",
+      "check": "DOI_RESOLVES",
+      "reason": "import is offline; DOI resolution is not attempted"
+    },
+    {
+      "category": "offline",
+      "check": "DOI_TITLE_CROSSCHECK",
+      "reason": "import is offline; CrossRef is not queried"
+    },
+    {
+      "category": "offline",
+      "check": "SOURCE_PROVENANCE",
+      "reason": "no abstract is retrieved; text_access stays \"unknown\" rather than being deduced"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_HONEST",
+      "reason": "no document is retrieved, so no size test can establish fulltext"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_HONEST_v2",
+      "reason": "no document is retrieved, so no size test can establish fulltext"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_RATE_PER_CLUSTER",
+      "reason": "text_access is not determined by the packet"
+    },
+    {
+      "category": "offline",
+      "check": "FULLTEXT_RATE_OVERALL",
+      "reason": "text_access is not determined by the packet"
+    },
+    {
+      "category": "import-semantics",
+      "check": "SOURCE_LENGTH",
+      "reason": "a length heuristic aimed at agent extraction; the quote is a verbatim packet passage"
+    },
+    {
+      "category": "import-semantics",
+      "check": "CLAIM_DIFFERS_FROM_SOURCE",
+      "reason": "a source-explicit finding may legitimately equal its source sentence"
+    }
+  ],
+  "validation": {
+    "packet_counts": {
+      "assessments": 22,
+      "findings": 11,
+      "findings_by_export_state": {
+        "approved-for-export": 11
+      },
+      "findings_by_verification": {
+        "independently-verified": 11
+      },
+      "omitted": {
+        "assessments": 0,
+        "findings": 16,
+        "papers": 0,
+        "passages": 0
+      },
+      "papers": 5,
+      "passages": 10,
+      "rejected": {
+        "assessments": 0,
+        "findings": 0,
+        "papers": 0,
+        "passages": 0
+      }
+    },
+    "valid": true,
+    "warnings": []
+  }
+}
