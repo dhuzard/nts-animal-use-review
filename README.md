@@ -1,5 +1,13 @@
 # NTS identifiers and animal numbers: a Diggypaper → ORAtlas dry run
 
+> [!WARNING]
+> **Proof of concept. Do not cite or reuse as evidence.** This repository exists to test
+> software (Diggypaper, the Computational Review Template and ORAtlas) on a handful of
+> papers. The second review of every finding was made by a **mock reviewer account** that
+> copies the lead's decision, so the packet's `independently-verified` level is not real,
+> and the corpus was hand-picked. No statement here is a systematic or scientific finding
+> about the cited studies or about animal use.
+
 **This repository is a pipeline test, not a scientific review.** It was created from the
 Computational Review Template (below, unchanged) to run one evidence chain end to end:
 

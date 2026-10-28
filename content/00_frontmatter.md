@@ -10,7 +10,7 @@ subtitle: A Diggypaper → CRT → ORAtlas dry run
 :height: 600px
 :::
 
-:::{admonition} Dry run: not a scientific review
+:::{admonition} Proof of concept: do not cite or reuse as evidence
 :class: danger
 
 This repository tests the evidence pipeline end to end. Its four claims are real
