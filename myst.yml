@@ -2,14 +2,14 @@ version: 1
 extends:
   - content/authors.yml
 project:
-  title: "REVIEW TITLE — Update in myst.yml"
-  subtitle: A Reproducible Computational Review
+  title: "NTS identifiers and animal numbers (proof of concept)"
+  subtitle: A Diggypaper → CRT → ORAtlas dry run, not evidence
   description: >
-    Update this description for your review topic.
+    Proof of concept, not a scientific review: four NTS statements traced from Diggypaper findings to ORAtlas claims.
   keywords:
-    - neuroscience
-    - critical review
-    - reproducible research
+    - non-technical summary
+    - animal research
+    - evidence traceability
   license: MIT
   open_access: true
   numbering:
@@ -26,7 +26,7 @@ project:
     - plugins/evidence-explorer-plugin.mjs
     - plugins/figure-lightbox-plugin.mjs
     - plugins/trust-claim-plugin.mjs
-  github: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+  github: https://github.com/dhuzard/nts-animal-use-review
   bibliography:
     - content/references.bib
   toc:
@@ -47,7 +47,7 @@ project:
       template: ./latex/template
 site:
   template: book-theme
-  title: "Computational Review"
+  title: "NTS dry run (PoC)"
   nav:
     - title: GitHub
-      url: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+      url: https://github.com/dhuzard/nts-animal-use-review
